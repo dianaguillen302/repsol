@@ -1,0 +1,97 @@
+@media(min-width:1024px){.footer{min-height:297px}
+}
+.footer.rp-bg-grey{background:#f8f8f8}
+.footer-superior-bar{flex-direction:row}
+.footer-superior-bar .footer-container{padding-top:40px;border-bottom:solid 1px #ddd;flex-direction:row}
+@media(max-width:720px){.footer-superior-bar .footer-container{padding-top:32px;border-bottom:0;flex-direction:row}
+}
+@media(min-width:1024px){.footer-superior-bar .footer-container{display:flex;justify-content:space-between;align-items:flex-start;padding-top:32px}
+}
+.footer-logo{display:block;margin-bottom:0;flex:50%}
+@media(max-width:720px){.footer-logo{order:2;padding-top:32px;margin-bottom:0}
+}
+@media(min-width:720px){.footer-logo{margin-right:auto;margin-left:auto;text-align:center}
+}
+@media(min-width:1024px){.footer-logo{margin-right:0;margin-left:0;text-align:left}
+}
+.footer-logo img{width:auto;height:32px}
+@media(min-width:1024px){.footer-logo img{margin:8px 0}
+}
+.footer-sn__list{display:flex;justify-content:center;align-items:center;margin:0 -12px;padding:0;list-style:none}
+@media(min-width:1024px){.footer-sn__list{margin:0 -8px 0 0}
+}
+.footer-sn__item{margin:0 12px}
+@media(min-width:1024px){.footer-sn__item{margin:0 8px}
+}
+.footer-sn__item img{width:auto;height:44px}
+@media(min-width:1024px){.footer-sn__item img{height:32px}
+}
+.footer-inferior-bar .footer-container{padding-bottom:32px}
+@media(max-width:720px){.footer-inferior-bar .footer-container{display:grid}
+}
+.footer-inferior-bar .footer-container span.copyright div.rp-description p{color:#757575;font-weight:400;font-size:12px;line-height:16px}
+@media(min-width:720px){.footer-inferior-bar .footer-container{padding-bottom:40px}
+.footer-inferior-bar .footer-container.footer-inf{padding-top:16px;padding-bottom:24px}
+.footer-inferior-bar .footer-container.footer-inf img{height:24px}
+}
+@media(min-width:1024px){.footer-inferior-bar .footer-container{display:flex;justify-content:space-between;align-items:center}
+}
+.footer-inferior-bar .footer-container ul.footer-logos{flex-wrap:wrap}
+@media(max-width:720px){.footer-inferior-bar .footer-container ul.footer-logos{margin-top:32px;margin-bottom:12px}
+.footer-inferior-bar .footer-container ul.footer-logos ul.footer-sn__list{flex-wrap:wrap;justify-content:flex-start}
+}
+.footer-inferior-bar .footer-container ul.footer-logos a{display:inline-block}
+.footer-inferior-bar .footer-container .multilink-nav{margin-bottom:40px;display:flex;width:100%}
+@media(min-width:1024px){.footer-inferior-bar .footer-container .multilink-nav{margin-bottom:24px;align-items:center}
+}
+@media(max-width:720px){.footer-inferior-bar .footer-container .multilink-nav{display:grid;margin-bottom:32px}
+}
+.footer-inferior-bar .footer-container .multilink-nav .breadcrumb-footer{flex:50%}
+@media(max-width:720px){.footer-inferior-bar .footer-container .multilink-nav .breadcrumb-footer{order:1;border-bottom:solid 1px #ddd;padding-bottom:8px}
+}
+@media(min-width:720px){.footer-inferior-bar .footer-container .multilink-nav .breadcrumb-footer{text-align:right}
+}
+@media(min-width:1024px){.footer-inferior-bar .footer-container .multilink-nav .breadcrumb-footer .cmp-breadcrumb__list{padding-top:0;margin:0}
+}
+.footer-inferior-bar .footer-container .multilink-nav .breadcrumb-footer .container{margin-left:0;margin-right:0}
+.footer-inferior-bar .footer-container .multilink-nav .footer-nav__list{margin:0;padding:0;list-style:none}
+@media(min-width:720px){.footer-inferior-bar .footer-container .multilink-nav .footer-nav__list{text-align:center}
+}
+@media(min-width:1024px){.footer-inferior-bar .footer-container .multilink-nav .footer-nav__list{text-align:left;padding:8px 0}
+}
+.footer-inferior-bar .footer-container .multilink-nav .footer-nav__item{position:relative;padding:8px 0}
+.footer-inferior-bar .footer-container .multilink-nav .footer-nav__item,.footer-inferior-bar .footer-container .multilink-nav .footer-nav__item a{color:#757575}
+.footer-inferior-bar .footer-container .multilink-nav .footer-nav__item:hover,.footer-inferior-bar .footer-container .multilink-nav .footer-nav__item a:hover{color:#aaa}
+@media(min-width:720px){.footer-inferior-bar .footer-container .multilink-nav .footer-nav__item{display:inline-block;padding:0 12px}
+.footer-inferior-bar .footer-container .multilink-nav .footer-nav__item:not(:last-child):after{content:"";position:absolute;right:-2px;width:1px;height:24px;background:#757575}
+}
+.footer ul{margin:0;padding:0;list-style:none}
+.footer .footer-lubs-container{padding:40px 0}
+@media(min-width:1024px){.footer .footer-lubs-container{margin:0 -16px;display:flex}
+}
+.footer .footer-lubs-container .head-collapse{padding:15px 0;display:flex;justify-content:space-between}
+.footer .footer-lubs-container .head-collapse[aria-expanded='false'] .icon-collapse:after{content:"\e904"}
+.footer .footer-lubs-container .head-collapse[aria-expanded='true'] .icon-collapse:after{content:"\e909"}
+.footer .footer-lubs-container .head-collapse .icon-collapse:after{font-family:"icomoon";font-size:20px;color:#016a7f}
+@media(min-width:1024px){.footer .footer-lubs-container .head-collapse{border:0}
+.footer .footer-lubs-container .head-collapse .icon-collapse{display:none}
+}
+.footer .footer-lubs-container .block-collapse{margin:10px 0 24px 0}
+.footer .footer-lubs-container .block-col{width:100%;border-bottom:solid 1px #ddd}
+@media(min-width:1024px){.footer .footer-lubs-container .block-col{width:20%;border:0;padding:0 16px}
+}
+.footer .footer-lubs-container .block-col li{padding:6px 0;font-size:14px}
+.footer .footer-lubs-container .block-col li a:hover{color:#aaa}
+@media(min-width:1024px){.footer .footer-lubs-container .collapse:not(.show){display:block}
+}
+.footer-textline{color:#757575}
+.footer-textline p{color:inherit}
+.footer-logos{margin:0;padding:0;list-style:none}
+.rp-lubricantes-page .breadcrumb{background-color:#f8f8f8}
+.rp-lubricantes-page .breadcrumb-footer .cmp-breadcrumb__item a{text-decoration:none}
+.rp-lubricantes-page .breadcrumb-footer .cmp-breadcrumb__item a span{color:#727272}
+.rp-lubricantes-page .breadcrumb-footer .cmp-breadcrumb__item a.cmp-breadcrumb__item-link span{border-bottom:1px solid #727272}
+.rp-lubricantes-page .breadcrumb-footer .cmp-breadcrumb__item a.cmp-breadcrumb__item--active span{border-bottom:0}
+.rp-lubricantes-page main .rp-container{background-color:#f8f8f8}
+.rp-lubricantes-page .footer-xf .xf-footer .xfpage{background-color:#f8f8f8}
+.rp-lubricantes-page .footer-xf .footer .footer{background-color:#fff}

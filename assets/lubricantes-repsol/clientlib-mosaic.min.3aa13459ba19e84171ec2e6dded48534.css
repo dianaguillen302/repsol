@@ -1,0 +1,52 @@
+@media(min-width:1024px){.rp-align-right .mosaic-component .block-container-img .block-left{padding-right:0;padding-left:12px}
+.rp-align-right .mosaic-component .block-container-img .block-right{padding-right:12px;padding-left:0}
+}
+.mosaic-component .block-container-img .block-left{display:none}
+.mosaic-component .block-container-img .block-right .block-img{margin-bottom:16px;margin-right:15%}
+.mosaic-component .block-container-img .block-right .block-img:last-child{margin-right:0;margin-left:15%;margin-bottom:0}
+@media(min-width:1024px){.mosaic-component .block-container-img .block-right .block-img:last-child{margin-left:0}
+}
+@media(min-width:1024px){.mosaic-component .block-container-img .block-right .block-img{margin-right:0}
+}
+@media(min-width:1024px){.mosaic-component .block-container-img{display:flex;align-items:center}
+.mosaic-component .block-container-img .block-left,.mosaic-component .block-container-img .block-right{width:50%}
+.mosaic-component .block-container-img .block-left{display:block;padding-right:12px}
+.mosaic-component .block-container-img .block-left img{height:500px;width:100%;object-fit:cover}
+.mosaic-component .block-container-img .block-right{padding-left:12px}
+.mosaic-component .block-container-img .block-right .block-img{margin-bottom:24px}
+.mosaic-component .block-container-img .block-right .block-img img{height:289px;width:100%;object-fit:cover}
+.mosaic-component .block-container-img .block-right .block-img:last-child{margin-bottom:0}
+}
+.mosaic-component .block-img{border-radius:8px;overflow:hidden}
+.mosaic-component .icon{font-size:20px;margin-right:18px}
+.mosaic-component p:last-child{margin-bottom:0}
+.mosaic-component .mosaic-title{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;margin-top:40px}
+@media(min-width:1024px){.mosaic-component .mosaic-title{margin-top:0}
+}
+.mosaic-component .mosaic-title .rp-title{margin-bottom:16px}
+@media(min-width:1024px){.mosaic-component .mosaic-title .rp-title{margin-bottom:24px}
+}
+.mosaic-component .mosaic-description{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:11;-webkit-box-orient:vertical}
+@media(min-width:1024px){.mosaic-component .mosaic-description{-webkit-line-clamp:7}
+}
+.mosaic-component .group-item{margin-top:16px}
+@media(min-width:1024px){.mosaic-component .group-item{margin-top:32px}
+}
+.mosaic-component .group-item.row{margin-left:-12px;margin-right:-12px}
+.mosaic-component .block-item{padding-top:16px;padding-bottom:16px}
+.mosaic-component .block-item .mosaic-text-item{margin-top:16px}
+.mosaic-component .block-item.list-checks{padding-top:8px;padding-bottom:8px}
+.mosaic-component .block-item.list-checks:first-child{padding-top:16px}
+.mosaic-component .block-item.list-checks:last-child{padding-bottom:16px}
+@media(min-width:1024px){.mosaic-component .block-item.type-number .mosaic-text-item{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical}
+}
+.mosaic-component .block-item.type-number-long{padding-bottom:8px}
+.mosaic-component .block-item.type-number-long:last-child{padding-bottom:16px}
+.mosaic-component .block-item.type-number-long .rp-number-02{margin-bottom:16px}
+.mosaic-component .block-item.type-number-long .mosaic-text-item{margin-top:8px}
+.mosaic-component .text-extra .rp-description{margin-top:16px;margin-bottom:16px}
+@media(min-width:1024px){.mosaic-component .text-extra .rp-description{margin-top:32px}
+}
+.mosaic-component .zone-btn .rp-btn{margin-top:16px}
+@media(min-width:1024px){.mosaic-component .zone-btn .rp-btn{margin-top:32px}
+}

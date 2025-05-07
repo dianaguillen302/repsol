@@ -1,0 +1,67 @@
+.descriptive-block-component{padding-top:48px;padding-bottom:48px}
+@media(min-width:1024px){.descriptive-block-component{padding-top:80px;padding-bottom:96px}
+}
+.descriptive-block-component .rp-headline-02 .rp-title p{color:#ff6200;margin-bottom:24px;font-size:28px;line-height:32px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical}
+@media(min-width:1024px){.descriptive-block-component .rp-headline-02 .rp-title p{font-size:40px;line-height:48px}
+}
+.descriptive-block-component .description .rp-description{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:11;-webkit-box-orient:vertical;margin-bottom:32px}
+@media(min-width:1024px){.descriptive-block-component .description .rp-description{-webkit-line-clamp:6}
+}
+.descriptive-block-component .element{margin-bottom:24px;float:left;width:100%}
+@media(min-width:1024px){.descriptive-block-component .element{margin-bottom:32px}
+}
+.descriptive-block-component .element .title{width:100%;margin-bottom:16px;display:flex}
+@media(min-width:1024px){.descriptive-block-component .element .title{margin-bottom:24px}
+}
+.descriptive-block-component .element .title .rp-title-1{float:left;width:auto;line-height:22px;margin-left:15px}
+.descriptive-block-component .element .text-simple{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:11;-webkit-box-orient:vertical}
+@media(min-width:1024px){.descriptive-block-component .element .text-simple{-webkit-line-clamp:7}
+}
+.descriptive-block-component .element .text-simple p{margin-bottom:0}
+.descriptive-block-component .element .text-simple a{color:#016a7f}
+@media(min-width:1024px){.descriptive-block-component .element:last-child{margin-bottom:32px}
+}
+.descriptive-block-component .element.season{margin-top:0}
+.descriptive-block-component .element.season .row{margin:0 -12px}
+.descriptive-block-component .element.season .season-element{margin-top:32px}
+.descriptive-block-component .element.season .text{display:flex;margin-bottom:8px}
+.descriptive-block-component .element.season .text-d,.descriptive-block-component .element.season .text-i{float:left}
+.descriptive-block-component .element.season .text-d{margin-left:18px}
+.descriptive-block-component .element.season .text-d p{color:#757575}
+.descriptive-block-component .element.season .rp-icon{padding:0;display:inline-flex;align-items:center;justify-content:center;background-color:transparent;color:#ff6200;font-size:20px;border-radius:0;border-width:0;overflow:hidden;width:18px;height:20px;-webkit-transition:all .5s ease-out;-moz-transition:all .5s ease-out;-o-transition:all .5s ease-out;transition:all .5s ease-out;float:left}
+.descriptive-block-component .element.season .rp-icon:before{font-family:"icomoon"}
+.descriptive-block-component .element.season .rp-icon:hover{background-color:transparent}
+.descriptive-block-component .element.season .rp-icon:active{background-color:transparent}
+.descriptive-block-component .element.season .rp-icon:focus{border-color:transparent}
+@media(min-width:1024px){.descriptive-block-component .element.season{margin-top:32px}
+}
+.descriptive-block-component .icon{color:#ff6200;font-size:20px;width:18px;height:20px;float:left}
+.descriptive-block-component .caption{float:left}
+.descriptive-block-component .caption p{font-size:12px;line-height:16px;color:#aaa}
+.descriptive-block-component.two-columns{background-color:transparent;padding-top:40px;padding-bottom:40px}
+@media(min-width:1024px){.descriptive-block-component.two-columns{padding-top:96px;padding-bottom:96px}
+}
+.descriptive-block-component.two-columns .container{margin-bottom:0}
+.descriptive-block-component.two-columns .rp-headline-02 .rp-title p{margin-bottom:16px;font-size:24px}
+@media(min-width:1024px){.descriptive-block-component.two-columns .rp-headline-02 .rp-title p{font-size:40px;line-height:48px}
+}
+.descriptive-block-component.two-columns .description .rp-description p{margin-bottom:32px}
+.descriptive-block-component.two-columns .description .rp-description p:last-child{margin-bottom:0}
+.descriptive-block-component.two-columns .element{margin-bottom:0;margin-top:32px}
+.descriptive-block-component.two-columns .element:first-child{margin-top:0}
+.descriptive-block-component.two-columns .element .title:has(.rp-title-1:empty):has(.icon.none){display:none}
+.descriptive-block-component.two-columns .element .title .rp-title-1{display:none;padding-top:0}
+.descriptive-block-component.two-columns .element .title .rp-title-1:not(:empty){display:block}
+.descriptive-block-component.two-columns .element .title .rp-title-1:has(+.icon){margin-left:0}
+.descriptive-block-component.two-columns .element .title .icon.none{display:none}
+.descriptive-block-component.two-columns .element .title .icon.none+.rp-title-1{margin-left:0}
+.descriptive-block-component.two-columns .element .text-simple p{margin-bottom:32px}
+.descriptive-block-component.two-columns .element .text-simple p:last-child{margin-bottom:0}
+.descriptive-block-component.two-columns .element .text-simple p:has(+p .rp-link-click){margin-bottom:16px}
+.rp-lubricantes-page .descriptive-block .descriptive-block-component{padding-bottom:64px}
+.rp-lubricantes-page .descriptive-block .descriptive-block-component .container{margin-bottom:0 !important}
+.rp-corporate-page .descriptive-block-component{padding-top:0;padding-bottom:0}
+.rp-corporate-page .element .title{align-items:center}
+.rp-corporate-page .element .title .rp-title-1{margin-left:12px}
+.rp-corporate-page .icon{font-size:24px;width:auto;height:auto}
+.rp-corporate-page .caption{margin-top:16px}

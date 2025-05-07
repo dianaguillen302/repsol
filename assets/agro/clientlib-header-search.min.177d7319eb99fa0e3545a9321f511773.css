@@ -1,0 +1,46 @@
+.rp-lubricantes-page .header .header-lub .block-search{top:-2px}
+.rp-lubricantes-page .header.open-header .block-search{top:78px}
+header .section-search{position:relative}
+header .block-search{position:absolute;top:-57px;left:0;right:0;bottom:0;overflow:auto;background:#fff;z-index:999;box-shadow:0 8px 32px -16px rgba(0,0,0,0.08);border-bottom:solid 1px #ddd}
+@media(max-width:720px){header .block-search{height:100vh}
+}
+@media(min-width:720px){header .block-search{bottom:auto;overflow:hidden}
+}
+header .block-search .search-content{padding-top:12px;padding-bottom:32px}
+header .block-search .container{position:relative}
+header .block-search .icon-rp{position:absolute;right:0;top:18px;display:none}
+@media(min-width:720px){header .block-search .icon-rp{display:block}
+}
+header .block-search .icon-rp.icon-rp-Cross{color:#005161}
+header .block-search .block-header-search{display:flex;justify-content:space-between;align-items:center}
+header .block-search .block-header-search .rp-close-search{cursor:pointer;padding-left:16px}
+@media(min-width:720px){header .block-search .block-header-search .rp-close-search{display:none}
+}
+header .block-search .box-input{position:relative}
+header .block-search .box-input .icon-rp{position:absolute;right:16px;top:12px;font-size:20px}
+header .block-search .box-input input{width:100%;padding:12px 50px 12px 16px;border-radius:8px;border:1px solid #ddd;color:#757575;font-family:"Roboto-Regular";font-weight:400;font-size:16px;line-height:24px}
+header .block-search .box-input input:hover{border-color:#aaa;color:#aaa}
+header .block-search .box-input input:focus{border-color:#016a7f;color:#757575}
+header .block-search .box-input input:active{border-color:#016a7f;color:#464646}
+header .block-search .box-info{padding:32px 16px 0 16px}
+@media(min-width:720px){header .block-search .box-info{padding:24px 0 0 0}
+}
+header .block-search .box-info .rp-body-2{margin-bottom:16px;color:#757575}
+header .block-search .box-info .rp-body-1 a,header .block-search .box-info .rp-body-1 p{display:block;margin-bottom:12px;cursor:pointer}
+header .block-search .box-info .rp-body-1 a:last-child,header .block-search .box-info .rp-body-1 p:last-child{margin-bottom:0}
+header .block-search .box-info .rp-body-1 a:hover,header .block-search .box-info .rp-body-1 p:hover{color:#aaa}
+header .block-search .box-results,header .block-search .box-error{display:none}
+header .header-net-search{visibility:hidden}
+header .header-net-search .box-input{flex:1 0 auto;position:relative}
+header .header-net-search .box-input .icon-rp{position:absolute;right:14px;top:14px;font-size:25px}
+header .header-net-search .box-input input{min-width:320px;width:100%;padding:12px 50px 12px 16px;border-radius:8px;border:1px solid #ddd;color:#757575;font-family:"Roboto-Regular";font-weight:400;font-size:16px;line-height:24px}
+header .header-net-search .box-input input:hover{border-color:#aaa;color:#aaa}
+header .header-net-search .box-input input:focus{border-color:#016a7f;color:#757575}
+header .header-net-search .box-input input:active{border-color:#016a7f;color:#464646}
+@media(min-width:720px){header.header-net .header-net-top .block-search{top:0}
+}
+header.header-net .header-net-top .search-content{position:relative}
+header.header-net .header-net-top .search-content .box-results{display:none;margin-top:4px;position:absolute;left:0;right:0;z-index:999}
+header.header-net .header-net-top .search-content .box-results .list-results{text-transform:capitalize;padding:16px;background-color:#fff;border-radius:8px;box-shadow:0 4px 6px rgba(0,0,0,0.2)}
+header.header-net .header-net-top .search-content .box-results .list-results p{cursor:pointer}
+header.header-net .header-net-top .search-content .box-results .list-results p:last-child{margin:0}

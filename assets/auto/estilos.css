@@ -1,0 +1,1098 @@
+.lubricantes {
+    position: relative;
+    width: 100%;
+    margin: auto;
+   /* Slideshow container */
+   /* Style images */
+   /*BOTONES*/
+   /*PUNTOS UBICACION*/
+   /* MEDIA QUERIES */
+}
+.lubricantes * {
+    font-family: 'repsol', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 100 !important;
+    outline: 0 !important;
+    transform: translateZ(0);
+}
+.lubricantes h1 {
+    font-family: 'repsol', sans-serif;
+}
+.lubricantes p {
+    font-family: 'RobotoRegular', sans-serif;
+    font-weight: 100;
+}
+.lubricantes section {
+    position: relative;
+    width: 100%;
+    left: 0;
+    overflow: hidden;
+    height: auto;
+    background-image: url("/content/dam/aplicaciones/lubricantes/img-folder/nudo1.png");
+    margin: auto;
+}
+.lubricantes img {
+    width: auto;
+}
+.lubricantes #cont {
+    transform-origin: 0 0;
+    margin: auto;
+    /* width: 1248px; */
+        width: 100%;
+    /* height: 550px !important; */
+        height: auto;
+    position: relative;
+}
+.lubricantes #animaciones {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.lubricantes #responsive {
+    display: none;
+}
+.lubricantes #slide-container {
+    width: 1248px;
+    height: 550px;
+    top: 0;
+    left: 0;
+}
+.lubricantes .slide-image {
+    position: absolute;
+    height: 550px;
+    margin-left: 175px;
+}
+.lubricantes .capa {
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    opacity: 0;
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+.lubricantes .display {
+    z-index: 30;
+}
+.lubricantes .capave {
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    opacity: 1 !important;
+    z-index: 10;
+}
+.lubricantes .blanco {
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    opacity: 0;
+    /* width: 1248px; */
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("/content/dam/aplicaciones/lubricantes/img-folder/blanco.png");
+    pointer-events: none;
+    background-size: 100%;
+}
+.lubricantes #sobre {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.lubricantes button {
+    position: absolute;
+    top: 0;
+    z-index: 11;
+    background-color: transparent;
+}
+.lubricantes .cerrar {
+    pointer-events: all;
+    position: absolute;
+    float: right;
+    top: 87px;
+    right: 236px;
+    padding-right: 35px;
+    height: 32px;
+    overflow: hidden;
+    background-image: url("/content/dam/aplicaciones/lubricantes/img-folder/cerrar.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 32px;
+    border: none;
+    background-color: transparent;
+    width: 90px;
+    font-size: 16px;
+    color: #fff;
+}
+.lubricantes .cerrar:hover {
+    background-position: right bottom;
+    cursor: pointer;
+}
+.lubricantes .ampliador {
+    width: 290px;
+    position: absolute;
+    padding-right: 55px;
+    font-size: 18px;
+    color: #6e6259;
+    border: none;
+    background-color: transparent;
+    text-align: right;
+    padding-top: 6px;
+    line-height: 20px;
+    padding-bottom: 2px;
+    font-family: 'Roboto-Regular';
+    font-weight: 100;
+}
+.lubricantes .dosli {
+    line-height: 19px;
+    padding-top: 1px;
+    width: 220px;
+}
+.lubricantes .plus {
+    width: 36px;
+    height: 36px;
+    background-image: url("/content/dam/aplicaciones/lubricantes/img-folder/mas.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 36px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 5px;
+    background-color: #c0ebf2;
+}
+.lubricantes .plus:hover {
+    background-color: #92d9e2;
+}
+.lubricantes .der {
+    padding-right: 20px;
+    padding-left: 10px;
+    background-position: left top;
+    background-color: #ffffffd1;
+    border-radius: 5px;
+    height: 35px;
+    padding-top: 0px;
+    width: auto;
+}
+.lubricantes .izq {
+    padding-left: 20px;
+    padding-right: 10px;
+    background-position: left top;
+    background-color: #ffffffd1;
+    border-radius: 5px;
+    height: 35px;
+    padding-top: 0px;
+    width: auto;
+}
+.lubricantes .der:hover {
+    background-position: left bottom;
+    transform: translateY(-3px);
+    transform: translateX(8px);
+    transition: transform 250ms linear;
+    transition-timing-function: linear;
+    background-color: #ffffffd1;
+    color: #757575;
+    width: auto;
+    padding-right: 20px;
+    height: 35px;
+    border-radius: 5px;
+    padding-top: 0px;
+}
+.lubricantes .izq:hover {
+    background-position: right bottom;
+    transform: translateX(-6px);
+    transition: transform 250ms linear;
+    transition-timing-function: linear;
+    background-color: #ffffffd1;
+    color: #757575;
+    padding-left: 20px;
+    height: 35px;
+    border-radius: 5px;
+    padding-top: 0px;
+}
+.lubricantes .ampliador:hover {
+    cursor: pointer;
+}
+.lubricantes .ampliador:hover .plus {
+    background-position: right bottom;
+    cursor: pointer;
+}
+.lubricantes #puntos {
+    display: none;
+}
+.lubricantes #contenido {
+    position: absolute;
+    width: 18%;
+    left: 248px;
+    top: 140px;
+}
+.lubricantes .der .plus {
+    left: -40px;
+}
+.lubricantes .izq .plus {
+    right: -40px;
+}
+.lubricantes h1 {
+    font-size: 32px;
+    color: #fff;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    line-height: 32px;
+}
+.lubricantes p {
+    font-size: 16px;
+   /*line-height: 19px;
+   */
+    color: #fff;
+}
+.lubricantes .cadena p {
+    font-size: 14px;
+}
+.lubricantes .margen {
+    margin-bottom: 10px;
+}
+.lubricantes .nudoscolores {
+    height: 76px;
+}
+.lubricantes .nudoscolores1 {
+    display: none;
+}
+.lubricantes .colorbotes {
+    position: absolute;
+    margin-left: 325px;
+    top: 47px;
+}
+.lubricantes .colorbotes img {
+    height: 245px;
+    position: absolute;
+   /*margin-left: 115px;
+    margin-top: 83px;
+   */
+    margin-left: 122px;
+    margin-top: 0;
+}
+.lubricantes #ref {
+    left: 720px;
+    top: 50px;
+}
+.lubricantes #qui {
+    left: 850px;
+    top: 120px;
+}
+.lubricantes #glp {
+    left: 695px;
+    top: 210px;
+}
+.lubricantes #gen {
+    left: 820px;
+    top: 320px;
+}
+.lubricantes #sum {
+    left: 235px;
+    top: 430px;
+}
+.lubricantes #lub {
+    left: 258px;
+    top: 310px;
+}
+.lubricantes #tra {
+    left: 258px;
+    top: 224px;
+}
+.lubricantes #pro {
+    left: 165px;
+    top: 80px;
+}
+.lubricantes #car {
+    right: 435px;
+    top: 390px;
+}
+.lubricantes #des {
+    left: -52px;
+    top: 330px;
+}
+.lubricantes #exp {
+    left: 278px;
+    top: 180px;
+}
+.lubricantes #sum2 {
+    left: 298px;
+    top: 90px;
+}
+.lubricantes #mov {
+    left: 468px;
+    top: 340px;
+}
+.lubricantes #botns {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+}
+.lubricantes .cadena {
+    border-radius: 4px;
+    border: 1px solid #757575;
+    padding: 10px 15px;
+}
+.lubricantes .punto1 {
+    -ms-transform: translate(12.5%, 0%) scale(0.6);
+    transform: translate(12.5%, 0%) scale(0.6);
+    -webkit-filter: blur(0px);
+}
+.lubricantes .punto2 {
+    -ms-transform: translate(-8%, 48%) scale(1.8);
+    transform: translate(-8%, 48%) scale(1.8);
+    -webkit-filter: blur(0px);
+}
+.lubricantes .punto3 {
+    -ms-transform: translate(10%, 35%) scale(2.8);
+    transform: translate(10%, 35%) scale(2.8);
+    -webkit-filter: blur(0px);
+}
+.lubricantes .punto4 {
+    -ms-transform: translate(4.5%, 5%) scale(0.4);
+    transform: translate(4.5%, 5%) scale(0.4);
+    -webkit-filter: blur(0px);
+}
+.lubricantes .punto5 {
+    -ms-transform: translate(29%, -80%) scale(2.5);
+    transform: translate(29%, -80%) scale(2.5);
+    -webkit-filter: blur(0px);
+}
+.lubricantes .punto6 {
+    -ms-transform: translate(21.5%, -43%) scale(2.85);
+    transform: translate(21.5%, -43%) scale(2.85);
+    -webkit-filter: blur(0px);
+}
+.lubricantes .punto7 {
+    -ms-transform: translate(12.5%, 1%) scale(0.71);
+    transform: translate(12.5%, 1%) scale(0.71);
+    -webkit-filter: blur(0px);
+}
+.lubricantes .punto8 {
+    -ms-transform: translate(27%, 80%) scale(2.3);
+    transform: translate(27%, 80%) scale(2.3);
+    -webkit-filter: blur(0px);
+}
+.lubricantes .punto9 {
+    -ms-transform: translate(12.5%, 0%) scale(0.6);
+    transform: translate(23.5%, -62%) scale(2);
+    -webkit-filter: blur(0px);
+}
+.lubricantes #mapares {
+    display: none;
+}
+.lubricantes .centra {
+    display: none;
+}
+.lubricantes #responsive_movil {
+    display: none;
+}
+@media only screen and (max-width: 1500px) {
+    /*
+    .lubricantes #cont {
+        zoom: 1;
+        -moz-transform: scale(0.80);
+        -moz-transform: scale(1);
+    }
+    */
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    /*
+    .lubricantes {
+        zoom: 0.90;
+        -moz-transform: scale(0.80);
+    }
+    .lubricantes .colorbotes {
+        margin-top: -90%;
+    }
+   */
+    .lubricantes #responsive_movil {
+        display: none;
+   }
+}
+@media only screen and (max-width: 1440px) {
+    /*
+    .lubricantes {
+        zoom: 0.90;
+        -moz-transform: scale(0.80);
+    }
+    */
+    .lubricantes #responsive_movil {
+        display: none;
+   }
+}
+@media only screen and (max-width: 1410px) {
+    /*
+    .lubricantes {
+        zoom: 0.90;
+        -moz-transform: scale(0.80);
+    }
+   */
+}
+@media only screen and (max-width: 1380px) {
+    /*
+    .lubricantes {
+        zoom: 0.90;
+        -moz-transform: scale(0.80);
+    }
+   */
+    .lubricantes .blanco {
+        background-image: url("/content/dam/aplicaciones/lubricantes/img-folder/blanco.png");
+    }
+    .lubricantes .cerrar {
+        top: 87px;
+        right: 244px;
+    }
+    .lubricantes #contenido {
+        top: 120px;
+    }
+   /*
+    .lubricantes h1 {
+        font-size:26.4px;
+    }
+    .lubricantes p {
+        font-size:17.6px;
+    }
+   */
+    .lubricantes .cadena p {
+        font-size: 15.4px;
+    }
+    .lubricantes h2 {
+        font-size: 19.8px;
+    }
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+    .lubricantes .colorbotes img {
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 1350px) {
+    /*
+    .lubricantes {
+        zoom: 0.90;
+        -moz-transform: scale(0.78);
+    }
+    .lubricantes .colorbotes {
+        margin-top: -80%;
+    }
+   */
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1320px) {
+    /*
+    .lubricantes {
+        zoom: 0.89;
+        -moz-transform: scale(0.78);
+    }
+    .lubricantes .colorbotes {
+        margin-top: -80%;
+    }
+   */
+    .lubricantes #responsive_movil {
+        display: none;
+   }
+}
+/*
+@media only screen and (max-width: 1290px) {
+    .lubricantes {
+        zoom: 0.88;
+        -moz-transform: scale(0.76);
+    }
+    .lubricantes .colorbotes {
+        margin-top: -80%;
+    }
+}
+*/
+@media only screen and (max-width: 1260px) {
+    /*
+    .lubricantes {
+        zoom: 0.86;
+        -moz-transform: scale(0.76);
+    }
+    */
+        /*
+        .lubricantes #cont {
+            zoom: 0.98;
+            -moz-transform: scale(0.98);
+        }
+        */
+    .lubricantes .blanco {
+        background-image: url("/content/dam/aplicaciones/lubricantes/img-folder/blanco.png");
+    }
+    .lubricantes .cerrar {
+        top: 87px;
+        right: 244px;
+    }
+    .lubricantes #contenido {
+        top: 120px;
+    }
+   /*
+    .lubricantes .colorbotes {
+        margin-top: -80%;
+    }
+   */
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1230px) {
+    /*
+    .lubricantes {
+        zoom: 0.86;
+        -moz-transform: scale(0.74);
+    }
+    */
+        /*
+        .lubricantes #cont {
+            ANTIGUO ____________________
+            zoom: 0.95;
+            -moz-transform: scale(0.95);
+            ____________________________
+                zoom: 0.72;
+                -moz-transform: scale(0.72);
+        }
+        */
+    /*
+    .lubricantes h1 {
+        font-size:28.8px;
+    }
+    */
+    .lubricantes p {
+        font-size: 18px;
+    }
+    .lubricantes .cadena p {
+        font-size: 16.8px;
+    }
+    .lubricantes h2 {
+        font-size: 21.6px;
+    }
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    /*
+    .lubricantes {
+        zoom: 0.84;
+        -moz-transform: scale(0.73);
+    }
+    .lubricantes #cont {
+        zoom: 0.93;
+        -moz-transform: scale(0.93);
+    }
+    */
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1170px) {
+    /*
+    .lubricantes {
+        zoom: 0.72;
+        -moz-transform: scale(0.72);
+    }
+    */
+        /*
+        .lubricantes #cont {
+            ANTIGUO ____________________
+            zoom: 0.9;
+            -moz-transform: scale(0.9);
+            ____________________________
+                zoom: 0.72;
+                -moz-transform: scale(0.72);
+        }
+        */
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1140px) {
+    /*
+    .lubricantes {
+        zoom: 0.72;
+        -moz-transform: scale(0.72);
+    }
+    */
+        /*
+        .lubricantes #cont {
+            zoom: 0.88;
+            -moz-transform: scale(0.88);
+        }
+        */
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1110px) {
+    /*
+    .lubricantes {
+        zoom: 0.70;
+    }
+    */
+        /*
+        .lubricantes #cont {
+            zoom: 0.86;
+            -moz-transform: scale(0.86);
+        }
+        */
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    /*
+    .lubricantes {
+        zoom: 0.70;
+    }
+    */
+        /*
+        .lubricantes #cont {
+            zoom: 0.85;
+            -moz-transform: scale(0.85);
+        }
+        */
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1080px) {
+    /*
+    .lubricantes {
+        zoom: 0.70;
+        -moz-transform: scale(0.70);
+    }
+    */
+        /*
+        .lubricantes #cont {
+            zoom: 0.83;
+            -moz-transform: scale(0.83);
+        }
+        */
+    .lubricantes h1 {
+       /*font-size:31.2px;
+       */
+        font-size: 34px;
+    }
+    .lubricantes p {
+       /*font-size:20.8px;
+       */
+        font-size: 20px;
+    }
+    .lubricantes .cadena p {
+        font-size: 18.2px;
+    }
+    .lubricantes h2 {
+        font-size: 23.4px;
+    }
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    /*
+    .lubricantes {
+        zoom: 0.70;
+        -moz-transform: scale(0.70);
+    }
+    */
+        /*
+        .lubricantes #cont {
+            zoom: 0.81;
+            -moz-transform: scale(0.81);
+        }
+        */
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1020px) {
+    /*
+    .lubricantes {
+        zoom: 0.70;
+        -moz-transform: scale(0.70);
+    }
+    */
+        /*
+        .lubricantes #cont {
+            zoom: 0.79;
+            -moz-transform: scale(0.79);
+        }
+        */
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+}
+@media only screen and (max-width: 990px) {
+    /*
+    .lubricantes {
+        zoom: 0.70;
+        -moz-transform: scale(0.70);
+    }
+    */
+        /*
+        .lubricantes #cont {
+            zoom: 0.76;
+            -moz-transform: scale(0.76);
+        }
+        */
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+}
+@media only screen and (max-width: 960px) {
+    /*
+    .lubricantes {
+        zoom: 0.70;
+        -moz-transform: scale(0.70);
+    }
+    */
+    /*
+        .lubricantes #cont {
+            zoom: 0.72;
+            -moz-transform: scale(0.72);
+    }
+    */
+    .lubricantes #responsive_movil {
+        display: none;
+   }
+}
+@media only screen and (max-width: 1023px) {
+    .lubricantes body {
+        position: relative;
+        width: 100%;
+        margin: auto;
+   }
+    .lubricantes section {
+        width: 100% !important;
+        background-image: none !important;
+        position: relative;
+   }
+    .lubricantes #cont {
+        /*
+        zoom: 1;
+        -moz-transform: scale(1);
+         width: 910px !important;
+        */
+        height: 100%;
+        width: 100%;
+   }
+    .lubricantes h1 {
+       /*font-size:24px;
+       */
+        font-size: 28px;
+        color: #fff;
+        padding: 20px;
+        margin-bottom: 0px;
+   }
+    .lubricantes p {
+       /*font-size:16px;
+       */
+        font-size: 18px;
+        line-height: unset;
+        color: #fff;
+        padding: 20px;
+   }
+    .lubricantes .cadena p {
+        font-size: 14px;
+   }
+    .lubricantes #animaciones {
+        -webkit-transition: all 0s;
+        transition: all 0s;
+        transform: translate(0%, 0%) scale(1) !important;
+   }
+    .lubricantes #slide-container {
+        height: auto;
+   }
+    .lubricantes #map {
+        display: none;
+   }
+    .lubricantes .der {
+        text-align: left;
+   }
+    .lubricantes .der:hover, .lubricantes .izq:hover {
+        width: calc(100% - 40px);
+        padding-left: 40px;
+        padding-top: 9px;
+        transform: translateY(0px);
+        transform: translateX(0px);
+        background-color: #f0f0f0;
+   }
+    .lubricantes .plus {
+        width: 32px;
+        height: 32px;
+        background-size: 32px;
+   }
+    .lubricantes .dosli {
+        line-height: inherit;
+   }
+    .lubricantes .ampliador {
+        position: relative;
+        left: 20px !important;
+        padding-left: 40px;
+        width: calc(100% - 40px);
+       /* max-width: 100%;
+        width:calc(100% - 65.2%);
+       */
+        top: inherit !important;
+        margin-bottom: 2px;
+        z-index: 30;
+        background-color: #f8f8f8;
+        border-radius: 4px;
+        padding-bottom: 10px;
+        padding-top: 9px;
+        font-size: 14px;
+        line-height: inherit;
+        display: initial !important;
+   }
+    .lubricantes #responsive {
+       /* display: inherit;
+        width: 103%;
+        top: -46px;
+        left: 0;
+        position: absolute;
+       */
+        display: inherit;
+        width: 100%;
+        text-align: center;
+   }
+    .lubricantes #responsive img {
+        width: 100%;
+   }
+    .lubricantes #responsive_movil {
+        display: none;
+   }
+    .lubricantes #botns {
+       /*position: absolute;
+        left: 0;
+        top: 200px;
+       */
+        position: relative;
+        left: 0;
+        top: 0;
+   }
+    .lubricantes .izq {
+        text-align: left;
+        background-position: left top;
+   }
+    .lubricantes .plus {
+        left: 2px !important;
+        top: 2px;
+   }
+    .lubricantes .blanco {
+        display: none !important;
+   }
+    .lubricantes .capa {
+        width: 100%;
+        background-image: none;
+   }
+    .lubricantes .centra {
+        display: inherit;
+        text-align: center;
+        width: 100%;
+        background-color: #fff;
+   }
+    .lubricantes .centra img {
+        /* position: relative; */
+        height: 100%;
+        width: 100%;
+        margin-bottom: -4px;
+   }
+    .lubricantes .franjanaranja {
+        background-image: url('/content/dam/aplicaciones/lubricantes/img-folder/naranja.jpg');
+        background-repeat: repeat;
+        height: 55px;
+    }
+    .lubricantes #contenido {
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        background-color: #ff8100;
+        color: #fff;
+        height: 100%;
+    }
+    /*
+    .lubricantes .margen {
+        margin-bottom: 550px;
+    }
+    */
+    .lubricantes .cerrar {
+        z-index: 70;
+        zoom: 1 !important;
+        right: 10px !important;
+        top: 10px !important;
+    }
+    .lubricantes .colorbotes {
+        display: none;
+    }
+    .lubricantes .nudoscolores {
+        display: none;
+    }
+    .lubricantes .nudoscolores1 {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 16%;
+        border-bottom: solid 18px #ff6000;
+        display: block;
+    }
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+}
+@media (min-width: 810px) and (max-width: 1023px) {
+    .lubricantes .centra img {
+        max-width: 80%;
+    }
+    .lubricantes .centra {
+        text-align: center !important;
+    }
+    .lubricantes .sum, .lubricantes .lub, .lubricantes .pro {
+        text-align: right !important;
+    }
+    .lubricantes .nudoscolores1 {
+        top: 4%;
+    }
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+}
+@media only screen and (max-width: 700px) and (max-width: 640px) {
+    .lubricantes #contenido {
+        width: 100%;
+        height: 100%;
+    }
+    .lubricantes #cont {
+        height: 100%;
+        width: 100%;
+    }
+    .lubricantes .ampliador {
+        width: calc(100% - 40px);
+    }
+    .lubricantes .dosli:hover, .lubricantes .der:hover, .lubricantes .izq:hover {
+        width: calc(100% - 40px);
+        height: auto;
+    }
+    /*
+    .lubricantes #botns {
+        top: 120px;
+    }
+    */
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+}
+@media screen and (max-width: 700px) and (min-width: 641px) and (max-width: 651px) {
+    .lubricantes .dosli {
+        width: calc(50% - 17px);
+    }
+    .lubricantes .dosli:hover {
+        width: calc(50% - 17px);
+        height: auto;
+    }
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+}
+@media only screen and (max-width: 700px) and (max-width: 400px) {
+    .lubricantes .dosli:hover, .lubricantes .der:hover, .lubricantes .izq:hover {
+        width: calc(100% - 20px);
+    }
+    .lubricantes .ampliador {
+        width: calc(100% - 20px);
+        left: 10px !important;
+        font-size: 12px;
+    }
+    .lubricantes #responsive_movil {
+        display: none;
+    }
+}
+@media only screen and (max-width: 700px) and (max-width: 375px) {
+    .lubricantes #responsive img {
+        display: none;
+    }
+    .lubricantes #responsive_movil {
+        display: inherit;
+        height: 250px;
+    }
+    .lubricantes #responsive_movil img {
+        height: 285px;
+        margin-top: -15px;
+    }
+}
+
+    /* AJUSTE DE ZOOM */
+    @media only screen and (min-width: 1024px) and (max-width: 1350px) {
+        .lubricantes #cont {
+            zoom: 0.72;
+            -moz-transform: scale(0.72);
+        } 
+        @-moz-document url-prefix() {
+            .lubricantes #cont {
+              width: 139%;
+            }
+        }
+    }
+/*
+@media (min-width: 751px) and (max-width: 885px) {
+    .lubricantes {
+        top:185px;
+    }
+}
+@media (min-width: 701px) and (max-width: 750px) {
+    .lubricantes {
+        top:150px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .lubricantes {
+        display: inherit;
+        width: 110%;
+        top: -3px;
+        left: 0;
+        position: absolute;
+
+    }
+    .lubricantes .dosli {
+        height: 50px;
+    }
+    .lubricantes .dosli:hover {
+        height: 50px;
+    }
+    .lubricantes #botns {
+        top:180px;
+    }
+}
+*/
+
+/*
+@media screen and (max-width: 700px) and (min-width: 581px) and (max-width: 640px) {
+    .lubricantes {
+        width: 80%;
+        left: 12%;      
+   }
+}
+@media screen and (max-width: 700px) and (min-width: 500px) and (max-width: 580px) {
+    .lubricantes {
+        width: 90%;
+        left: 12%;
+   }
+}
+@media screen and (max-width: 700px) and (min-width: 481px) and (max-width: 499px) {
+    .lubricantes {
+       width: 98%;
+        left: 5%;
+   }
+}
+*/

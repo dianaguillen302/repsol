@@ -1,0 +1,22 @@
+.text-title-component{margin-top:40px;margin-bottom:40px}
+.text-title-component .component-description{margin-bottom:0}
+.text-title-component .component-description.rp-limit-10 .rp-description{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:10;-webkit-box-orient:vertical}
+.transcription-component.grey-background{background-color:#f8f8f8;padding:32px;border-radius:8px}
+.transcription-component .title-container{display:block}
+@media(min-width:1024px){.transcription-component .title-container{display:flex}
+}
+.transcription-component .component-description{margin-bottom:0;margin-top:16px;height:118px;overflow:hidden;-webkit-transition:all .1s ease-out;-moz-transition:all .1s ease-out;-o-transition:all .1s ease-out;transition:all .1s ease-out}
+.transcription-component .component-description .rp-description{margin:0}
+.transcription-component .component-description.opened{height:auto;overflow:initial}
+.transcription-component .rp-title{font-weight:500;font-size:16px;margin-right:16px}
+.transcription-component .component-duration{font-size:16px;color:#464646}
+.transcription-component .white-shadow{position:relative;overflow:hidden}
+.transcription-component .white-shadow:after{content:"";display:block;position:absolute;width:100%;height:100%;top:0;background:linear-gradient(to bottom,transparent 7%,#f8f8f8 80%)}
+.transcription-component .read-less{margin-top:16px;display:none}
+.transcription-component .icon{margin-left:5px}
+.rp-ecommerce-page .text-title-component{margin-top:80px;margin-bottom:0}
+@media(min-width:1024px){.rp-ecommerce-page .text-title-component{margin-top:72px}
+}
+.rp-ecommerce-page .text-title-component .rp-description{margin-bottom:0}
+.rp-ecommerce-page .text-title-component .rp-limit-10 .rp-description{-webkit-line-clamp:20}
+.rp-ecommerce-page .text-title-component .component-title+.component-description .rp-description{margin-bottom:0}

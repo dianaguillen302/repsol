@@ -1,0 +1,1 @@
+RichTextInnerLink={init:function(){RichTextInnerLink.addDescriptionAnalyticClass()},addDescriptionAnalyticClass:function(){var n=$(document).find(".rp-description");let i=n.find("a");0<n.length&&0<i.length&&(i.hasClass("rp-link-click")||i.each(function(){i.addClass("rp-link-click")}))}},$(document).ready(function(){RichTextInnerLink.init()});

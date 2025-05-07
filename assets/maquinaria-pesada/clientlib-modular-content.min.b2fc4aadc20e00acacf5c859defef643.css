@@ -1,0 +1,22 @@
+.modular-content-component .container-row{margin-bottom:-16px}
+@media(min-width:1024px){.modular-content-component .container-row{margin-bottom:-32px}
+}
+.modular-content-component article{margin-bottom:16px}
+@media(min-width:1024px){.modular-content-component article{margin-bottom:32px}
+}
+.modular-content-component .button-list-component .wrapper-btn{margin-bottom:48px}
+.modular-content-component .step-btn-footer .button-list-component{margin-top:48px}
+.modular-content-fragment{display:flex;justify-content:space-between;flex-direction:column;border-radius:8px;min-height:464px;-webkit-transition:all .5s ease-out;-moz-transition:all .5s ease-out;-o-transition:all .5s ease-out;transition:all .5s ease-out;padding:32px 20px;background-color:#ff6200}
+@media(min-width:1024px){.modular-content-fragment{padding:32px}
+}
+.modular-content-fragment.bg-image{background-color:transparent}
+.modular-content-fragment.bg-image:before{content:'';position:absolute;top:0;bottom:0;left:0;right:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,0) 56.24%,rgba(0,0,0,0.6) 85.28%)}
+.modular-content-fragment:hover{transform:translate(0,-16px)}
+.modular-content-fragment:hover .block-content-item__title .rp-title{color:#fff}
+.modular-content-fragment .tag-com-fragment{margin-bottom:16px}
+.modular-content-fragment .rp-title-1 .rp-title{margin-bottom:8px}
+.modular-content-fragment .rp-headline-03 .rp-title{margin-bottom:16px}
+.modular-content-fragment .rp-btn{margin-top:24px}
+.modular-content-fragment .image-bg{z-index:-2}
+.rp-container .modular-content-fragment.bg-image{transform:translate(0)}
+.rp-lubricantes-page .button-list-component .rp-link-click{text-decoration:none}

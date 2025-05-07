@@ -1,0 +1,1 @@
+var isRedInterna=!1;function result(){$.ajax({async:!1,type:"GET",url:"/bin/repsol/internalnetwork"}).done(function(n){isRedInterna=n.redInterna})}result();

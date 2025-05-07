@@ -1,0 +1,187 @@
+.mixin-rp-caption{font-family:"Roboto-Regular";font-weight:400;font-size:12px;line-height:16px;letter-spacing:.25px}
+.mixin-rp-caption-1{font-family:"Roboto-Regular";font-weight:400;font-size:14px;line-height:16px}
+.mixin-rp-caption-01-mobile{font-family:"Roboto-Regular";font-weight:400;font-size:14px;line-height:16px}
+.mixin-rp-caption-01-desktop{font-family:"Roboto-Regular";font-weight:400;font-size:14px;line-height:16px}
+.mixin-rp-caption-01{font-family:"Roboto-Regular";font-weight:400;font-size:14px;line-height:16px}
+@media(min-width:1024px){.mixin-rp-caption-01{font-family:"Roboto-Regular";font-weight:400;font-size:14px;line-height:16px}
+}
+.mixin-rp-caption-02-desktop{font-family:"Roboto-Regular";font-weight:400;font-size:12px;line-height:16px}
+.mixin-rp-caption-02-mobile{font-family:"Roboto-Regular";font-weight:400;font-size:12px;line-height:16px}
+.mixin-rp-caption-02{font-family:"Roboto-Regular";font-weight:400;font-size:12px;line-height:16px}
+@media(min-width:1024px){.mixin-rp-caption-02{font-family:"Roboto-Regular";font-weight:400;font-size:12px;line-height:16px}
+}
+.mixin-rp-caption-1-bold{font-family:"Roboto-Bold";font-weight:700;font-size:14px;line-height:16px}
+.mixin-rp-body-1-mobile{font-family:"Roboto-Regular";font-weight:400;font-size:16px;line-height:24px}
+.mixin-rp-body-1-desktop{font-family:"Roboto-Regular";font-weight:400;font-size:16px;line-height:24px}
+.mixin-rp-body-1{font-family:"Roboto-Regular";font-weight:400;font-size:16px;line-height:24px}
+@media(min-width:1024px){.mixin-rp-body-1{font-family:"Roboto-Regular";font-weight:400;font-size:16px;line-height:24px}
+}
+.mixin-rp-body-2-mobile{font-family:"Roboto-Regular";font-weight:400;font-size:14px;line-height:24px}
+.mixin-rp-body-2-desktop{font-family:"Roboto-Regular";font-weight:400;font-size:14px;line-height:24px}
+.mixin-rp-body-2{font-family:"Roboto-Regular";font-weight:400;font-size:14px;line-height:24px}
+@media(min-width:1024px){.mixin-rp-body-2{font-family:"Roboto-Regular";font-weight:400;font-size:14px;line-height:24px}
+}
+.mixin-rp-highlighted-body-mobile{font-family:"Roboto-Regular";font-weight:400;font-size:18px;line-height:24px}
+.mixin-rp-highlighted-body-desktop{font-family:"Roboto-Regular";font-weight:400;font-size:20px;line-height:32px}
+.mixin-rp-highlighted-body{font-family:"Roboto-Regular";font-weight:400;font-size:18px;line-height:24px}
+@media(min-width:1024px){.mixin-rp-highlighted-body{font-family:"Roboto-Regular";font-weight:400;font-size:20px;line-height:32px}
+}
+.mixin-rp-title-1-mobile{font-family:"Roboto-Medium";font-weight:500;font-size:18px;line-height:24px}
+.mixin-rp-title-1-desktop{font-family:"Roboto-Medium";font-weight:500;font-size:20px;line-height:32px}
+.mixin-rp-title-1{font-family:"Roboto-Medium";font-weight:500;font-size:18px;line-height:24px}
+@media(min-width:1024px){.mixin-rp-title-1{font-family:"Roboto-Medium";font-weight:500;font-size:20px;line-height:32px}
+}
+.mixin-rp-title-2-mobile{font-family:"Roboto-Medium";font-weight:500;font-size:16px;line-height:24px}
+.mixin-rp-title-2-desktop{font-family:"Roboto-Medium";font-weight:500;font-size:16px;line-height:24px}
+.mixin-rp-title-2{font-family:"Roboto-Medium";font-weight:500;font-size:16px;line-height:24px}
+@media(min-width:1024px){.mixin-rp-title-2{font-family:"Roboto-Medium";font-weight:500;font-size:16px;line-height:24px}
+}
+.mixin-rp-subheadline-mobile{font-family:"Roboto-Medium";font-weight:500;font-size:22px;line-height:32px}
+.mixin-rp-subheadline-desktop{font-family:"Roboto-Medium";font-weight:500;font-size:24px;line-height:32px}
+.mixin-rp-subheadline{font-family:"Roboto-Medium";font-weight:500;font-size:22px;line-height:32px}
+@media(min-width:1024px){.mixin-rp-subheadline{font-family:"Roboto-Medium";font-weight:500;font-size:24px;line-height:32px}
+}
+.mixin-rp-headline-mobile{font-family:'Repsol-Regular';font-style:normal;font-weight:normal;font-size:40px;line-height:48px;letter-spacing:-0.5px}
+.mixin-rp-headline-desktop{font-family:'Repsol-Regular';font-style:normal;font-weight:normal;font-size:48px;line-height:56px;letter-spacing:-0.5px}
+.mixin-rp-headline{font-family:'Repsol-Regular';font-style:normal;font-weight:normal;font-size:40px;line-height:48px;letter-spacing:-0.5px}
+@media(min-width:1024px){.mixin-rp-headline{font-family:'Repsol-Regular';font-style:normal;font-weight:normal;font-size:48px;line-height:56px;letter-spacing:-0.5px}
+}
+.mixin-rp-headline-00-mobile{font-family:'Repsol-Regular';font-weight:400;font-size:40px;line-height:46px;letter-spacing:-1px}
+.mixin-rp-headline-00-desktop{font-family:'Repsol-Regular';font-weight:400;font-size:64px;line-height:72px;letter-spacing:-1px}
+.mixin-rp-headline-00{font-family:'Repsol-Regular';font-weight:400;font-size:40px;line-height:46px;letter-spacing:-1px}
+@media(min-width:720px){.mixin-rp-headline-00{font-family:'Repsol-Regular';font-weight:400;font-size:64px;line-height:72px;letter-spacing:-1px}
+}
+.mixin-rp-headline-01-mobile{font-family:'Repsol-Regular';font-weight:400;font-size:34px;line-height:40px}
+.mixin-rp-headline-01-desktop{font-family:'Repsol-Regular';font-weight:400;font-size:56px;line-height:64px}
+.mixin-rp-headline-01{font-family:'Repsol-Regular';font-weight:400;font-size:34px;line-height:40px}
+@media(min-width:1024px){.mixin-rp-headline-01{font-family:'Repsol-Regular';font-weight:400;font-size:56px;line-height:64px}
+}
+.mixin-rp-headline-02-mobile{font-family:'Repsol-Regular';font-weight:400;font-size:28px;line-height:32px}
+.mixin-rp-headline-02-desktop{font-family:'Repsol-Regular';font-weight:400;font-size:40px;line-height:48px}
+.mixin-rp-headline-02{font-family:'Repsol-Regular';font-weight:400;font-size:28px;line-height:32px}
+@media(min-width:1024px){.mixin-rp-headline-02{font-family:'Repsol-Regular';font-weight:400;font-size:40px;line-height:48px}
+}
+.mixin-rp-headline-03-mobile{font-family:'Repsol-Regular';font-weight:400;font-size:24px;line-height:32px}
+.mixin-rp-headline-03-desktop{font-family:'Repsol-Regular';font-weight:400;font-size:32px;line-height:40px}
+.mixin-rp-headline-03{font-family:'Repsol-Regular';font-weight:400;font-size:24px;line-height:32px}
+@media(min-width:1024px){.mixin-rp-headline-03{font-family:'Repsol-Regular';font-weight:400;font-size:32px;line-height:40px}
+}
+.mixin-rp-headline-bold-01-mobile{font-family:'Repsol-Regular';font-weight:600;font-size:34px;line-height:40px}
+.mixin-rp-headline-bold-01-desktop{font-family:'Repsol-Regular';font-weight:600;font-size:56px;line-height:64px}
+.mixin-rp-headline-bold-01{font-family:'Repsol-Regular';font-weight:600;font-size:34px;line-height:40px}
+@media(min-width:1024px){.mixin-rp-headline-bold-01{font-family:'Repsol-Regular';font-weight:600;font-size:56px;line-height:64px}
+}
+.mixin-rp-headline-bold-02-mobile{font-family:'Repsol-Regular';font-weight:600;font-size:28px;line-height:32px}
+.mixin-rp-headline-bold-02-desktop{font-family:'Repsol-Regular';font-weight:600;font-size:40px;line-height:48px}
+.mixin-rp-headline-bold-02{font-family:'Repsol-Regular';font-weight:600;font-size:28px;line-height:32px}
+@media(min-width:1024px){.mixin-rp-headline-bold-02{font-family:'Repsol-Regular';font-weight:600;font-size:40px;line-height:48px}
+}
+.mixin-rp-number-01-mobile{font-family:"Roboto-Regular";font-weight:300;font-size:48px;line-height:56px}
+.mixin-rp-number-01-desktop{font-family:"Roboto-Regular";font-weight:300;font-size:48px;line-height:56px}
+.mixin-rp-number-01{font-family:"Roboto-Regular";font-weight:300;font-size:48px;line-height:56px}
+@media(min-width:1024px){.mixin-rp-number-01{font-family:"Roboto-Regular";font-weight:300;font-size:48px;line-height:56px}
+}
+.mixin-rp-number-02-mobile{font-family:"Roboto-Regular";font-weight:300;font-size:40px;line-height:48px}
+.mixin-rp-number-02-desktop{font-family:"Roboto-Regular";font-weight:300;font-size:40px;line-height:48px}
+.mixin-rp-number-02{font-family:"Roboto-Regular";font-weight:300;font-size:40px;line-height:48px}
+@media(min-width:1024px){.mixin-rp-number-02{font-family:"Roboto-Regular";font-weight:300;font-size:40px;line-height:48px}
+}
+.mixin-rp-number-03-mobile{font-family:"Roboto-Regular";font-weight:300;font-size:28px;line-height:36px}
+.mixin-rp-number-03-desktop{font-family:"Roboto-Regular";font-weight:300;font-size:28px;line-height:36px}
+.mixin-rp-number-03{font-family:"Roboto-Regular";font-weight:300;font-size:28px;line-height:36px}
+@media(min-width:1024px){.mixin-rp-number-03{font-family:"Roboto-Regular";font-weight:300;font-size:28px;line-height:36px}
+}
+.mixin-rp-number-04-mobile{font-family:"Roboto-Regular";font-weight:400;font-size:20px;line-height:32px}
+.mixin-rp-number-04-desktop{font-family:"Roboto-Regular";font-weight:400;font-size:20px;line-height:32px}
+.mixin-rp-number-04{font-family:"Roboto-Regular";font-weight:400;font-size:20px;line-height:32px}
+@media(min-width:1024px){.mixin-rp-number-04{font-family:"Roboto-Regular";font-weight:400;font-size:20px;line-height:32px}
+}
+.mixin-rp-body-1-underline-mobile{font-family:"Roboto-Regular";font-weight:400;font-size:16px;line-height:24px;text-decoration-line:underline}
+.mixin-rp-body-1-underline-desktop{font-family:"Roboto-Regular";font-weight:400;font-size:16px;line-height:24px;text-decoration-line:underline}
+.mixin-rp-body-1-underline{font-family:"Roboto-Regular";font-weight:400;font-size:16px;line-height:24px;text-decoration-line:underline}
+@media(min-width:1024px){.mixin-rp-body-1-underline{font-family:"Roboto-Regular";font-weight:400;font-size:16px;line-height:24px;text-decoration-line:underline}
+}
+.mixin-rp-body-2-underline-mobile{font-family:"Roboto-Regular";font-weight:400;font-size:14px;line-height:24px;text-decoration-line:underline}
+.mixin-rp-body-2-underline-desktop{font-family:"Roboto-Regular";font-weight:400;font-size:14px;line-height:24px;text-decoration-line:underline}
+.mixin-rp-body-2-underline{font-family:"Roboto-Regular";font-weight:400;font-size:14px;line-height:24px;text-decoration-line:underline}
+@media(min-width:1024px){.mixin-rp-body-2-underline{font-family:"Roboto-Regular";font-weight:400;font-size:14px;line-height:24px;text-decoration-line:underline}
+}
+.mixin-rp-button-mobile{font-family:"Roboto-Regular";font-weight:400;font-size:18px;line-height:32px}
+.mixin-rp-button-desktop{font-family:"Roboto-Regular";font-weight:400;font-size:16px;line-height:24px}
+.mixin-rp-button{font-family:"Roboto-Regular";font-weight:400;font-size:18px;line-height:32px}
+@media(min-width:1024px){.mixin-rp-button{font-family:"Roboto-Regular";font-weight:400;font-size:16px;line-height:24px}
+}
+.mixin-rp-button-small-mobile{font-family:"Roboto-Regular";font-weight:400;font-size:16px;line-height:24px}
+.mixin-rp-button-small-desktop{font-family:"Roboto-Regular";font-weight:400;font-size:14px;line-height:24px}
+.mixin-rp-button-small{font-family:"Roboto-Regular";font-weight:400;font-size:16px;line-height:24px}
+@media(min-width:1024px){.mixin-rp-button-small{font-family:"Roboto-Regular";font-weight:400;font-size:14px;line-height:24px}
+}
+.mixin-button-small{font-size:14px;letter-spacing:.0025em}
+.mixin-button-action{font-family:"Roboto-Regular";font-size:16px;line-height:24px}
+.mixin-header-separator{content:"";position:absolute;top:50%;left:0;transform:translateY(-50%);width:1px;height:20px;background:#ddd}
+.mixin-scrollbars::-webkit-scrollbar{width:6px;cursor:pointer}
+.mixin-scrollbars::-webkit-scrollbar-track{background:transparent}
+.mixin-scrollbars::-webkit-scrollbar-thumb{background:#ddd;border-radius:8px}
+.mixin-scrollbars::-webkit-scrollbar-thumb:hover{background:#ddd}
+.item-active{transition:.2s cubic-bezier(0.43,0.39,0.23,1.01);background:#0082ba}
+.item-active .icon{width:px2rem(22)}
+.item-active .icon>svg *{fill:#fff;stroke:#fff}
+.mixin-scroll-gradients.is-scrollable{position:relative}
+.mixin-scroll-gradients.is-scrollable:before,.mixin-scroll-gradients.is-scrollable:after{content:"";position:absolute;z-index:1;left:0;opacity:0;width:100%;height:48px;pointer-events:none}
+.mixin-scroll-gradients.is-scrollable:before{top:0;background:linear-gradient(180deg,#fff 0,rgba(255,255,255,0.8) 48.9%,rgba(255,255,255,0) 100%)}
+.mixin-scroll-gradients.is-scrollable:after{bottom:0;background:linear-gradient(0,#fff 0,rgba(255,255,255,0.8) 48.9%,rgba(255,255,255,0) 100%)}
+.mixin-scroll-gradients.is-scrollable.scrolling:before,.mixin-scroll-gradients.is-scrollable.scroll-on-top:before,.mixin-scroll-gradients.is-scrollable.scroll-on-bottom:before,.mixin-scroll-gradients.is-scrollable.scrolling:after,.mixin-scroll-gradients.is-scrollable.scroll-on-top:after,.mixin-scroll-gradients.is-scrollable.scroll-on-bottom:after{transition:opacity .2s cubic-bezier(0.25,0.1,0.25,1)}
+.mixin-scroll-gradients.is-scrollable.scrolling:before,.mixin-scroll-gradients.is-scrollable.scrolling:after{opacity:1}
+.mixin-scroll-gradients.is-scrollable.scroll-on-top:before{opacity:0}
+.mixin-scroll-gradients.is-scrollable.scroll-on-top:after{opacity:1}
+.mixin-scroll-gradients.is-scrollable.scroll-on-bottom:before{opacity:1}
+.mixin-scroll-gradients.is-scrollable.scroll-on-bottom:after{opacity:0}
+.mixin-aspect-radio-16-9{aspect-ratio:16/9}
+@supports not(aspect-ratio:auto){padding-top:56.3%}
+.mixin-aspect-radio-4-3{aspect-ratio:4/3}
+@supports not(aspect-ratio:auto){padding-top:75%}
+.secondary-higlight-component .add-shadow{box-shadow:0 8px 32px -16px rgba(0,0,0,0.08)}
+.secondary-higlight-component .rp-col-right{min-height:272px}
+@media(min-width:1024px) and (max-width:1350px){.secondary-higlight-component .rp-col-right .shortened-padding{padding:40px 20px}
+}
+.secondary-higlight-component .bg-image{min-height:240px}
+@media(min-width:1024px){.secondary-higlight-component .bg-image{min-height:272px}
+}
+.secondary-higlight-component .bg-image.image-bg__noBorderRadius .image-bg{border-radius:0}
+.secondary-higlight-component .rp-link{margin-bottom:8px;display:flex}
+.secondary-higlight-component .rp-link:first-child{margin-top:16px}
+@media(min-width:1024px){.secondary-higlight-component .rp-link:first-child{margin-top:24px}
+}
+.secondary-higlight-component .rp-link:last-child{margin-bottom:0}
+.secondary-higlight-component .rp-btn{margin-top:16px}
+@media(min-width:1024px){.secondary-higlight-component .rp-btn{margin-top:32px;min-width:181px}
+}
+.secondary-higlight-component .video-external-wrapper{min-height:240px}
+@media(min-width:1024px){.secondary-higlight-component .video-external-wrapper{min-height:352px}
+}
+.secondary-higlight-component .rp-col-left{padding:0}
+@media(min-width:768px){.secondary-higlight-component .video-external-wrapper{margin-right:16px;margin-left:16px}
+}
+@media(min-width:1350px){.secondary-higlight-component .video-external-wrapper{margin-right:20px;margin-left:20px}
+}
+.secondary-higlight-component .title-description-wrapper{padding-bottom:32px}
+@media(min-width:1024px){.secondary-higlight-component .title-description-wrapper{padding-bottom:64px}
+}
+.secondary-higlight-component .block-box .rp-logo{margin-bottom:24px}
+@media(min-width:720px){.secondary-higlight-component .block-box .rp-logo{margin-bottom:32px}
+}
+.secondary-higlight-component .block-box .rp-logo img{min-height:unset;width:auto;height:18px;object-fit:contain}
+@media(min-width:720px){.secondary-higlight-component .block-box .rp-logo img{height:20px}
+}
+.secondary-higlight-component .block-box .bulletstochecks ul{padding-left:24px}
+.secondary-higlight-component .block-box .bulletstochecks ul li{margin-left:24px}
+.secondary-higlight-component .block-box .bulletstochecks ul li:before{margin-left:-24px;width:24px;height:24px;font-family:"icomoon";content:"\ea0d";text-indent:-24px}
+.secondary-higlight-component .block-box .block-box_buttons{display:flex;flex-direction:column}
+@media(min-width:720px){.secondary-higlight-component .block-box .block-box_buttons{flex-direction:row;gap:16px}
+}
+.secondary-higlight-component .block-box .block-box_buttons .link-repsol{display:flex;justify-content:center}
+@media(min-width:720px){.secondary-higlight-component .block-box .block-box_buttons .link-repsol{height:100%}
+}
+@media(min-width:720px){.secondary-higlight-component .block-box .block-box_buttons .link-repsol a{height:48px;margin-top:32px}
+}
+.secondary-higlight-component .block-box .block-box_buttons .link-repsol a .rp-arrow{display:none}

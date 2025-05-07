@@ -1,0 +1,62 @@
+:root{--heigthStoreMessage:'0px';--heigthStoreMessageMobile:'0px'}
+.detail-product-breadcrumb{margin-top:0 !important}
+.breadcrumb.hasSiblingCarousel{display:none}
+@media(min-width:1024px){.breadcrumb.hasSiblingCarousel{position:absolute;z-index:3;display:block}
+.breadcrumb.hasSiblingCarousel .cmp-breadcrumb{width:100%}
+}
+.breadcrumb.hero-breadcrumb .cmp-breadcrumb__item{color:#ddd}
+.breadcrumb.hero-breadcrumb .cmp-breadcrumb__item:after{color:#ddd}
+.breadcrumb.hero-breadcrumb .cmp-breadcrumb__item span{border-bottom:1px solid #ddd}
+.breadcrumb.hero-breadcrumb .cmp-breadcrumb__item:last-child span,.breadcrumb.hero-breadcrumb .cmp-breadcrumb__item .non-clickable span{border-bottom:0}
+.breadcrumb.hero-breadcrumb .cmp-breadcrumb__item .non-clickable{border-bottom:0}
+.cmp-breadcrumb__list{padding-left:0;padding-top:9px;font-size:12px}
+.cmp-breadcrumb__item{margin-top:5px;margin-right:11px;margin-bottom:5px;color:#757575}
+.cmp-breadcrumb__item span{border-bottom:1px solid #757575}
+.cmp-breadcrumb__item:last-child,.cmp-breadcrumb__item .non-clickable{color:#464646}
+.cmp-breadcrumb__item:last-child:after,.cmp-breadcrumb__item .non-clickable:after{content:none}
+.cmp-breadcrumb__item:last-child span,.cmp-breadcrumb__item .non-clickable span{border-bottom:0}
+.cmp-breadcrumb__item .non-clickable{border-bottom:0}
+.cmp-breadcrumb__item:after{content:"\e908";color:#757575;margin-left:11px;font-family:"icomoon";position:relative;top:2px}
+.cmp-breadcrumb_movile-list{white-space:nowrap}
+.rp-lubricantes-page .breadcrumb>.container{max-width:1248px}
+.rp-lubricantes-page .breadcrumb>.container .cmp-breadcrumb .cmp-breadcrumb__item a{text-decoration:none}
+.rp-lubricantes-page .breadcrumb>.container .cmp-breadcrumb .cmp-breadcrumb__item a span{color:#727272}
+.rp-ecommerce-page .breadcrumb *{font-family:"Roboto-Regular";line-height:16px;letter-spacing:.25px}
+.rp-ecommerce-page .breadcrumb .cmp-breadcrumb__list{padding-left:0;padding-top:9px;font-size:12px}
+.rp-ecommerce-page .breadcrumb .cmp-breadcrumb__item{margin-top:5px;margin-right:11px;margin-bottom:5px;color:#727272}
+.rp-ecommerce-page .breadcrumb .cmp-breadcrumb__item a span{border-bottom:1px solid #727272}
+.rp-ecommerce-page .breadcrumb .cmp-breadcrumb__item:nth-last-child(2){color:#464646}
+.rp-ecommerce-page .breadcrumb .cmp-breadcrumb__item:last-child,.rp-ecommerce-page .breadcrumb .cmp-breadcrumb__item .non-clickable{color:#464646}
+.rp-ecommerce-page .breadcrumb .cmp-breadcrumb__item:last-child:after,.rp-ecommerce-page .breadcrumb .cmp-breadcrumb__item .non-clickable:after{content:none}
+.rp-ecommerce-page .breadcrumb .cmp-breadcrumb__item .non-clickable{border-bottom:0}
+.rp-ecommerce-page .breadcrumb .cmp-breadcrumb__item:after{content:"\e908";color:#727272;margin-left:11px;font-family:"icomoon";position:relative;top:2px}
+.rp-ecommerce-page .breadcrumb-repsol,.rp-ecommerce-page .breadcrumb.store-breadcrumb{background-color:#f8f8f8}
+.rp-ecommerce-page .breadcrumb-repsol .cmp-breadcrumb,.rp-ecommerce-page .breadcrumb.store-breadcrumb .cmp-breadcrumb{display:block !important}
+.rp-ecommerce-page .breadcrumb-repsol .cmp-breadcrumb .cmp-breadcrumb__list,.rp-ecommerce-page .breadcrumb.store-breadcrumb .cmp-breadcrumb .cmp-breadcrumb__list{margin-top:24px;margin-bottom:24px;padding-top:0}
+@media(max-width:720px){.rp-ecommerce-page .breadcrumb-repsol .cmp-breadcrumb .cmp-breadcrumb__list,.rp-ecommerce-page .breadcrumb.store-breadcrumb .cmp-breadcrumb .cmp-breadcrumb__list{margin-top:24px;margin-bottom:24px}
+}
+.rp-ecommerce-page .breadcrumb-repsol .cmp-breadcrumb .cmp-breadcrumb__list .cmp-breadcrumb__item,.rp-ecommerce-page .breadcrumb.store-breadcrumb .cmp-breadcrumb .cmp-breadcrumb__list .cmp-breadcrumb__item{margin-top:5px;margin-bottom:5px;margin-right:8px}
+.rp-ecommerce-page .breadcrumb-repsol .cmp-breadcrumb .cmp-breadcrumb__list .cmp-breadcrumb__item:after,.rp-ecommerce-page .breadcrumb.store-breadcrumb .cmp-breadcrumb .cmp-breadcrumb__list .cmp-breadcrumb__item:after{margin-left:8px}
+.rp-ecommerce-page .breadcrumb.hasLinksBar{margin-top:60px}
+@media(min-width:1024px){.rp-ecommerce-page .breadcrumb.hasLinksBar{margin-top:0}
+}
+.rp-ecommerce-page .breadcrumb.hasStoreMessage{margin-top:var(--heigthStoreMessageMobile)}
+@media(min-width:1024px){.rp-ecommerce-page .breadcrumb.hasStoreMessage{margin-top:var(--heigthStoreMessage)}
+}
+.rp-ecommerce-page .cmp-breadcrumb__list{white-space:nowrap;overflow:hidden}
+@media(min-width:720px){.rp-ecommerce-page .cmp-breadcrumb__list{white-space:normal;overflow:visible}
+}
+@media(max-width:719px){.rp-ecommerce-page .cmp-breadcrumb__item:nth-last-child(2):not(:first-child):after{content:none}
+}
+.rp-ecommerce-page .cmp-experiencefragment .cmp-breadcrumb.xfHero{display:block !important;position:relative}
+.rp-ecommerce-page .cmp-experiencefragment .cmp-breadcrumb.xfHero .cmp-breadcrumb__list{position:absolute;background-color:transparent;left:0;z-index:8;padding-left:8px;margin-top:8px}
+@media(min-width:1024px){.rp-ecommerce-page .cmp-experiencefragment .cmp-breadcrumb.xfHero .cmp-breadcrumb__list{padding-left:0}
+}
+.rp-ecommerce-page .cmp-experiencefragment .cmp-breadcrumb.xfHero .cmp-breadcrumb__list:not(.hero-bg-white) .cmp-breadcrumb__item{color:#ddd}
+.rp-ecommerce-page .cmp-experiencefragment .cmp-breadcrumb.xfHero .cmp-breadcrumb__list:not(.hero-bg-white) .cmp-breadcrumb__item span{border-bottom:1px solid #ddd;color:#ddd}
+.rp-ecommerce-page .cmp-experiencefragment .cmp-breadcrumb.xfHero .cmp-breadcrumb__list:not(.hero-bg-white) .cmp-breadcrumb__item span.non-clickable{border-bottom:0;color:#ddd}
+.rp-ecommerce-page .cmp-experiencefragment .cmp-breadcrumb.xfHero .cmp-breadcrumb__list:not(.hero-bg-white) .cmp-breadcrumb__item:last-child span{border-bottom:0;color:#fff}
+.rp-ecommerce-page .cmp-experiencefragment .cmp-breadcrumb.xfHero .cmp-breadcrumb__list:not(.hero-bg-white) .cmp-breadcrumb__item:after{color:#ddd}
+.rp-ecommerce-page .cmp-experiencefragment .cmp-breadcrumb.xfHero.headerTransp .cmp-breadcrumb__list{margin-top:56px}
+@media(min-width:1024px){.rp-ecommerce-page .cmp-experiencefragment .cmp-breadcrumb.xfHero.headerTransp .cmp-breadcrumb__list{margin-top:80px}
+}

@@ -1,0 +1,21 @@
+.rp-bg-turquoise .shortcuts-card-component .component-title,.rp-bg-orange .shortcuts-card-component .component-title,.rp-bg-turquoise .shortcuts-card-component .component-description,.rp-bg-orange .shortcuts-card-component .component-description{color:#fff}
+.rp-bg-turquoise .shortcuts-card-component .component-title p,.rp-bg-orange .shortcuts-card-component .component-title p,.rp-bg-turquoise .shortcuts-card-component .component-description p,.rp-bg-orange .shortcuts-card-component .component-description p,.rp-bg-turquoise .shortcuts-card-component .component-title ul,.rp-bg-orange .shortcuts-card-component .component-title ul,.rp-bg-turquoise .shortcuts-card-component .component-description ul,.rp-bg-orange .shortcuts-card-component .component-description ul,.rp-bg-turquoise .shortcuts-card-component .component-title ol,.rp-bg-orange .shortcuts-card-component .component-title ol,.rp-bg-turquoise .shortcuts-card-component .component-description ol,.rp-bg-orange .shortcuts-card-component .component-description ol,.rp-bg-turquoise .shortcuts-card-component .component-title div,.rp-bg-orange .shortcuts-card-component .component-title div,.rp-bg-turquoise .shortcuts-card-component .component-description div,.rp-bg-orange .shortcuts-card-component .component-description div,.rp-bg-turquoise .shortcuts-card-component .component-title .rp-description p,.rp-bg-orange .shortcuts-card-component .component-title .rp-description p,.rp-bg-turquoise .shortcuts-card-component .component-description .rp-description p,.rp-bg-orange .shortcuts-card-component .component-description .rp-description p{color:#fff}
+.shortcuts-card-component{position:relative;padding-top:48px;padding-bottom:0}
+@media(min-width:1024px){.shortcuts-card-component{padding-top:96px;padding-bottom:0}
+}
+.shortcuts-card-component .bg-box.bg-box-medium{position:absolute;top:0;left:0;right:0;height:calc(100% - 56px)}
+@media(min-width:1024px){.shortcuts-card-component .bg-box.bg-box-medium{height:calc(100% - 84px)}
+}
+.shortcuts-card-component .item-shortcut{box-shadow:0 8px 32px -16px rgba(0,0,0,0.08);border-radius:8px;display:flex;flex-direction:column;justify-content:center;overflow:hidden;margin-bottom:16px;min-height:80px}
+@media(min-width:1024px){.shortcuts-card-component .item-shortcut{min-height:200px;margin-bottom:32px}
+}
+.shortcuts-card-component .item-shortcut:before{position:absolute;background-color:rgba(0,0,0,0.25);top:0;left:0;right:0;bottom:0;content:'';z-index:1}
+.shortcuts-card-component .item-shortcut .text{z-index:2;margin:16px 32px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;color:#fff}
+.shortcuts-card-component .item-shortcut img{transition:transform .5s ease-in-out}
+@media(min-width:1024px){.shortcuts-card-component .item-shortcut:hover img.image-bg{transform:scale(1.3)}
+}
+.shortcuts-card-component .component-title{color:#ff6200}
+.shortcuts-card-component .component-title p,.shortcuts-card-component .component-title ul,.shortcuts-card-component .component-title ol,.shortcuts-card-component .component-title div{color:#ff6200}
+.shortcuts-card-component .component-title.text-center .rp-title,.shortcuts-card-component .component-description.text-center .rp-description{text-align:left}
+@media(min-width:1024px){.shortcuts-card-component .component-title.text-center .rp-title,.shortcuts-card-component .component-description.text-center .rp-description{text-align:center}
+}

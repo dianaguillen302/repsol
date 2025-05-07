@@ -1,0 +1,74 @@
+.rp-lubricantes-page .hidden{display:none !important;visibility:hidden;appearance:none;height:0;padding:0 !important}
+.lubricantes-modal.lubricantes-modal-container.hidden{display:none}
+.obligatory-field-text.hidden{display:none}
+.forgot-pass-modal.hidden{display:none}
+.hidden{display:none}
+.lubricantes-modal-container{position:fixed;top:0;left:0;display:flex;justify-content:center;width:100vw;height:100vh;font-family:"TitilliumWeb-Regular";background:rgba(0,0,0,0.2);z-index:999}
+.lubricantes-modal-container i.icon.icon-rp-Cross{position:absolute;top:24px;right:24px;cursor:pointer}
+.lubricantes-modal-container .lubricantes-modal-content{position:fixed;top:80px;padding:50px 42px 18px 42px;width:920px;background-color:#fff;box-shadow:0 3px 6px 0 #00000080;border-radius:3px}
+.lubricantes-modal-container .lubricantes-modal-content .top-section{padding-bottom:37px;text-align:center}
+.lubricantes-modal-container .lubricantes-modal-content .top-section p{margin:0;font-size:15px;color:#4e515e}
+.lubricantes-modal-container .lubricantes-modal-content .data-section{display:flex;padding-bottom:41px}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .form-section{flex-basis:44%}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .form-section .form-title{margin:0;padding-bottom:26px;text-align:center;font-weight:bold;line-height:15px;font-size:15px;color:#6e6259}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .form-section .input-contaier{display:flex;flex-direction:column}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .form-section .input-contaier input{margin:6px 0 12px 0;padding-left:12px;height:42px;width:100%;border-radius:8px;border:1px solid #ddd;background-color:#fff}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .form-section .input-contaier input.error{border:1px solid #e76468}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .form-section .input-contaier .obligatory-field-text{margin-bottom:5px;text-align:center;font-size:13px;line-height:15px;font-weight:bold;color:#e76468}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .form-section .forget-pass{display:flex;justify-content:end;padding-bottom:16px;color:#016a7f;font-size:15px;cursor:pointer}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .form-section .submit-button{margin-bottom:18px;padding:15px 8%;width:100%;background-color:#016a7f;color:#fff;border:1px solid #016a7f;border-radius:8px;transition:background-color .5s ease 0;outline:0}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .form-section .submit-button:hover{background-color:#00404d;color:#fff;border:1px solid #00404d}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .form-section .problem-text{display:flex;justify-content:center;color:#016a7f;font-size:15px}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .divider{display:flex;flex-basis:12%;flex-direction:column;align-items:center;margin-top:41px}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .divider .top-line,.lubricantes-modal-container .lubricantes-modal-content .data-section .divider .bottom-line{width:1px;background-color:#d3d3d3}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .divider .top-line{height:40%}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .divider .bottom-line{height:60%}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .social-media-section{display:flex;flex-direction:column;align-items:center;flex-basis:44%}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .social-media-section .social-login-text{padding-bottom:36px;font-weight:bold;line-height:15px;font-size:15px;color:#6e6259}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .social-media-section .social-media-icons{display:flex}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .social-media-section .social-media-icons>a{margin:0 3px}
+.lubricantes-modal-container .lubricantes-modal-content .bottom-section{text-align:center}
+.lubricantes-modal-container .lubricantes-modal-content .bottom-section .no-account-text{color:#016a7f;font-size:15px;font-weight:bold}
+.lubricantes-modal-container .forgot-pass-modal{position:fixed;top:86px;padding:40px 68px 40px 68px;width:455px;min-width:32px;min-height:64px;background-color:white;box-shadow:0 3px 6px 0 #00000080;border-radius:3px}
+.lubricantes-modal-container .forgot-pass-modal p{margin:0;font-size:15px;color:#4e515e}
+.lubricantes-modal-container .forgot-pass-modal p.first-text{margin-bottom:20px}
+.lubricantes-modal-container .forgot-pass-modal p.second-text{margin-bottom:30px}
+.lubricantes-modal-container .forgot-pass-modal a{text-align:right;color:#016a7f;font-size:15px;cursor:pointer}
+.lubricantes-modal-container .forgot-pass-modal a.back-home{display:flex;justify-content:center;padding:30px 0}
+.lubricantes-modal-container .forgot-pass-modal input{margin:6px 0 18px 0;padding-left:12px;height:42px;width:100%;border-radius:8px;border:1px solid #ddd;background-color:#fff}
+.lubricantes-modal-container .forgot-pass-modal input.error{border:1px solid #e76468}
+.lubricantes-modal-container .forgot-pass-modal .obligatory-field-text{margin-bottom:5px;padding-bottom:8px;text-align:center;font-size:13px;line-height:15px;font-weight:bold;color:#e76468}
+.lubricantes-modal-container .forgot-pass-modal button{margin-bottom:18px;padding:15px 8%;width:100%;font-size:19px;background-color:#016a7f;color:#fff;border:1px solid #016a7f;border-radius:8px;transition:background-color .5s ease 0;outline:0}
+.lubricantes-modal-container .forgot-pass-modal button:hover{background-color:#00404d;color:#fff;border:1px solid #00404d}
+.lubricantes-modal-container .login-accept-modal{position:fixed;top:86px;padding:40px 68px;width:455px;font-size:15px;background-color:#fff;box-shadow:0 3px 6px 0 rgba(0,0,0,0.5);border-radius:3px}
+.lubricantes-modal-container .login-accept-modal p{margin:0;font-size:12px;color:#4e515e}
+.lubricantes-modal-container .login-accept-modal input{margin:6px 0 18px 0;padding-left:12px;height:42px;width:100%;border-radius:8px;border:1px solid #ddd;background-color:#fff}
+.lubricantes-modal-container .login-accept-modal input.error{border:1px solid #e76468}
+.lubricantes-modal-container .login-accept-modal .obligatory-field-text{margin-bottom:5px;padding-bottom:8px;text-align:center;font-size:13px;line-height:15px;font-weight:bold;color:#e76468}
+.lubricantes-modal-container .login-accept-modal button{margin-bottom:18px;padding:15px 8%;width:100%;font-size:19px;background-color:#016a7f;color:#fff;border:1px solid #016a7f;border-radius:8px;transition:background-color .5s ease 0;outline:0}
+.lubricantes-modal-container .login-accept-modal button:hover{background-color:#00404d;color:#fff;border:1px solid #00404d}
+.lubricantes-modal-container .login-accept-modal a{display:flex;justify-content:center;color:#016a7f;font-size:15px;cursor:pointer}
+@media screen and (max-width:960px){.lubricantes-modal-container .lubricantes-modal-content{width:860px}
+}
+@media screen and (max-width:920px){.lubricantes-modal-container .lubricantes-modal-content{top:90px;padding:38px 68px 18px 68px;width:455px}
+.lubricantes-modal-container .lubricantes-modal-content .data-section{padding-bottom:78px;flex-direction:column}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .form-section .submit-button{margin-bottom:42px;font-size:19px}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .divider{flex-direction:row;justify-content:center;margin:40px 0 29px 0}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .divider .top-line,.lubricantes-modal-container .lubricantes-modal-content .data-section .divider .bottom-line{margin:5px 12px 2px 12px;height:1px;width:35%}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .divider .top-section{padding-bottom:35px}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .divider p{margin:0}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .social-media-section .social-media-icons>a{margin:0 2.5px}
+}
+@media screen and (max-width:550px){.lubricantes-modal-container .lubricantes-modal-content{padding:30px 20px 18px 20px;width:416px}
+.lubricantes-modal-container .lubricantes-modal-content .top-section{padding-bottom:35px}
+.lubricantes-modal-container .lubricantes-modal-content .top-section p{font-size:13px}
+.lubricantes-modal-container .lubricantes-modal-content .data-section{padding-bottom:70px}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .form-section .form-title{font-size:13px}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .form-section .input-contaier input{height:37px}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .form-section .forget-pass,.lubricantes-modal-container .lubricantes-modal-content .data-section .form-section .problem-text{font-size:13px}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .divider p{font-size:13px}
+.lubricantes-modal-container .lubricantes-modal-content .data-section .social-media-section .social-login-text{font-size:13px}
+.lubricantes-modal-container .lubricantes-modal-content .bottom-section p{font-size:13px}
+}
+@media screen and (max-width:425px){.lubricantes-modal-container .lubricantes-modal-content{width:98%}
+}

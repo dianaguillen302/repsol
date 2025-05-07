@@ -1,0 +1,82 @@
+.contact-form-component .contact-form-container{background-color:#e5e5e5;display:flex;flex-direction:column;align-items:center;padding:56px 0;padding-bottom:96px}
+@media(max-width:720px){.contact-form-component .contact-form-container{padding:48px 0}
+}
+.contact-form-component .contact-form-container .row.container-title{width:100%}
+.contact-form-component .contact-form-container .row.container-title .component-title{font-size:40px;font-family:'Repsol-Regular';font-weight:400;line-height:48px;text-align:center;letter-spacing:-0.5px;color:#ff6200}
+@media(max-width:720px){.contact-form-component .contact-form-container .row.container-title .component-title{font-size:28px;line-height:32px}
+}
+.contact-form-component .contact-form-container .text-reason.mobile{display:none !important}
+.contact-form-component .contact-form-container .text-reason.desktop{display:flex !important}
+@media(max-width:720px){.contact-form-component .contact-form-container .text-reason.mobile{display:flex !important}
+.contact-form-component .contact-form-container .text-reason.desktop{display:none !important}
+}
+.contact-form-component .contact-form-container .contact-form{width:822px;height:auto;border-radius:8px;padding:40px;background-color:#fff;box-shadow:0 8px 32px -16px rgba(0,0,0,0.08)}
+@media(max-width:1024px){.contact-form-component .contact-form-container .contact-form{width:80%}
+}
+@media(max-width:720px){.contact-form-component .contact-form-container .contact-form{padding:24px;height:auto}
+.contact-form-component .contact-form-container .contact-form .block-top{margin-bottom:48px}
+}
+.contact-form-component .contact-form-container .contact-form .block-top{margin-bottom:40px}
+.contact-form-component .contact-form-container .contact-form .title-section{font-size:20px;font-weight:500;line-height:32px;font-family:"Roboto-Regular";margin-bottom:24px}
+.contact-form-component .contact-form-container .contact-form .title-section i.icon{color:#ff8200}
+.contact-form-component .contact-form-container .contact-form .title-section h3{display:inline-block;margin-left:16px;font-style:normal}
+.contact-form-component .contact-form-container .contact-form .content-select{max-height:50px;overflow:hidden}
+.contact-form-component .contact-form-container .contact-form .content-select select{background-image:linear-gradient(45deg,transparent 50%,#2286c1 50%),linear-gradient(134deg,#2286c1 50%,transparent 50%);background-position:calc(92%) calc(50%),calc(93.4%) calc(50%);background-size:5px 5px,5px 5px,1px 1.5em;background-repeat:no-repeat}
+@media(max-width:720px){.contact-form-component .contact-form-container .contact-form .content-select select{background-position:calc(92%) calc(50%),calc(93.1%) calc(50%)}
+}
+@media(min-width:720px){.contact-form-component .contact-form-container .contact-form .content-select select[name="user-type"]{background-position:calc(96.4%) calc(50%),calc(97%) calc(50%)}
+}
+.contact-form-component .contact-form-container .contact-form .content-select select+i{display:none;position:relative;left:96%;bottom:30px;right:20px;width:16px;height:16px;display:block;color:#016a7f}
+@media(max-width:1024px){.contact-form-component .contact-form-container .contact-form .content-select select+i{left:90%}
+}
+.contact-form-component .contact-form-container .contact-form .form-control,.contact-form-component .contact-form-container .contact-form .dragdrop-component{margin-bottom:16px}
+.contact-form-component .contact-form-container .contact-form .form-control{width:100%;display:flex;flex-direction:column}
+.contact-form-component .contact-form-container .contact-form .form-control select{appearance:none;-webkit-appearance:none;-moz-appearance:none}
+.contact-form-component .contact-form-container .contact-form .form-control select[name="country"]{text-transform:capitalize}
+.contact-form-component .contact-form-container .contact-form .form-control .msg-error{display:none}
+.contact-form-component .contact-form-container .contact-form .form-control.error input,.contact-form-component .contact-form-container .contact-form .form-control .column.error input,.contact-form-component .contact-form-container .contact-form .form-control.error textarea,.contact-form-component .contact-form-container .contact-form .form-control .column.error textarea,.contact-form-component .contact-form-container .contact-form .form-control.error select,.contact-form-component .contact-form-container .contact-form .form-control .column.error select,.contact-form-component .contact-form-container .contact-form .form-control.error .checkbox label,.contact-form-component .contact-form-container .contact-form .form-control .column.error .checkbox label{border:solid 1px #e4002b !important}
+.contact-form-component .contact-form-container .contact-form .form-control.error .msg-error,.contact-form-component .contact-form-container .contact-form .form-control .column.error .msg-error{display:block;color:#e4002b}
+.contact-form-component .contact-form-container .contact-form .form-control .row{margin:0;width:100%;display:flex;flex-direction:row;justify-content:space-between}
+@media(max-width:720px){.contact-form-component .contact-form-container .contact-form .form-control .row{flex-direction:column}
+}
+.contact-form-component .contact-form-container .contact-form .form-control .row .column{display:flex;flex-direction:column;width:363px}
+.contact-form-component .contact-form-container .contact-form .form-control .row .column .content-select select+i{left:90%}
+.contact-form-component .contact-form-container .contact-form .form-control .row .column .content-select select+i{left:90%}
+@media(max-width:1024px){.contact-form-component .contact-form-container .contact-form .form-control .row .column{width:48%}
+}
+@media(max-width:720px){.contact-form-component .contact-form-container .contact-form .form-control .row .column{width:100%;margin-bottom:16px}
+}
+.contact-form-component .contact-form-container .contact-form .form-control label{font-size:12px;line-height:12px;font-weight:400;color:#464646;font-family:"Roboto-Regular";letter-spacing:.25px;margin-bottom:3px}
+.contact-form-component .contact-form-container .contact-form .form-control input,.contact-form-component .contact-form-container .contact-form .form-control select{height:50px;width:100%;padding:12px 40px 12px 16px;border:solid 1px #ddd;background-color:#fff;border-radius:8px}
+.contact-form-component .contact-form-container .contact-form .form-control textarea{height:168px;width:100%;padding:12px 16px;border:solid 1px #ddd;background-color:#fff;border-radius:8px;resize:none}
+.contact-form-component .contact-form-container .contact-form .conditions-policies{display:flex;flex-direction:row;align-items:center;margin-bottom:40px}
+.contact-form-component .contact-form-container .contact-form .conditions-policies .checkbox{width:32px;height:32px}
+.contact-form-component .contact-form-container .contact-form .conditions-policies .checkbox input[type='checkbox']{display:none}
+.contact-form-component .contact-form-container .contact-form .conditions-policies .checkbox input[type='checkbox']+label{width:32px;height:32px;background-color:#c0ebf2;border-radius:4px;border:solid 1px #00adc3;cursor:pointer}
+.contact-form-component .contact-form-container .contact-form .conditions-policies .checkbox input[type='checkbox']:checked+label:before{content:'✓';width:32px;height:32px;font-size:24px;font-weight:700;color:#016a7f;display:flex;justify-content:center;align-items:center}
+.contact-form-component .contact-form-container .contact-form .conditions-policies .checkbox+label{margin-left:8px}
+.contact-form-component .contact-form-container .contact-form .conditions-policies .checkbox+label a{color:#016a7f}
+.contact-form-component .contact-form-container .contact-form .conditions-policies label{font-size:16px;font-weight:400;font-family:"Roboto-Regular";line-height:24px}
+.contact-form-component .contact-form-container .contact-form .form-submit{display:flex;flex-direction:column}
+.contact-form-component .contact-form-container .contact-form .form-submit label{font-size:12px;line-height:12px;font-weight:400;color:#464646;font-family:"Roboto-Regular";letter-spacing:.25px;margin-bottom:16px}
+.contact-form-component .contact-form-container .contact-form .form-submit button{width:264px;height:50px;font-size:16px;font-weight:400;line-height:24px;font-family:"Roboto-Regular";padding:12px 32px;background-color:#016a7f;color:#fff;border-radius:8px;border:0}
+@media(max-width:720px){.contact-form-component .contact-form-container .contact-form .form-submit button{width:100%}
+}
+.contact-form-component .message-container{padding:100px 96px;display:flex;flex-direction:column;border:solid .5px #e5e5e5}
+@media(max-width:720px){.contact-form-component .message-container{padding:58px 20px}
+}
+.contact-form-component .message-container .message-image{width:158px;height:158px}
+@media(max-width:720px){.contact-form-component .message-container .message-image{width:152px;height:152px;margin:0 auto}
+}
+.contact-form-component .message-container .message-title{margin-top:52px;font-family:'Repsol-Regular';font-size:40px;font-weight:400;line-height:48px;color:#ff6200;letter-spacing:-0.5}
+@media(max-width:720px){.contact-form-component .message-container .message-title{margin-top:44px;font-size:28px;line-height:32px;text-align:center}
+}
+.contact-form-component .message-container .message-content{font-family:"Roboto-Regular";font-size:16px;font-weight:400;line-height:24px;max-width:452px}
+@media(max-width:720px){.contact-form-component .message-container .message-content{margin-top:16px;text-align:center}
+}
+.contact-form-component .message-container .button-container{margin-top:40px}
+@media(max-width:720px){.contact-form-component .message-container .button-container{margin-top:8px}
+}
+.contact-form-component .rp-loader.active{display:block}
+.contact-form-component .rp-loader.active .block{position:fixed;width:100vw;height:100vh}
+.hidden{display:none !important}

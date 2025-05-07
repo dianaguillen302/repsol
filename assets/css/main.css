@@ -1,0 +1,26 @@
+.footer-inferior-bar {
+    display: flex;
+    justify-content: space-between; /* Separa el texto y los íconos */
+    align-items: center; /* Alinea verticalmente */
+    padding: 10px 0; /* Añade algo de espacio */
+}
+
+.footer-container.footer-inf {
+    display: flex;
+    align-items: center; /* Alinea verticalmente */
+    width: 100%;
+    justify-content: center;
+}
+
+.footer-textline {
+    margin: 0; /* Elimina márgenes innecesarios */
+}
+
+.footer-logos {
+    display: flex;
+    gap: 10px; /* Espacio entre íconos */
+}
+
+cmp-accordion__button cmp-accordion__button--hidden {
+    display: flex;
+}

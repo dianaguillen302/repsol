@@ -1,0 +1,18 @@
+.headline-cta-component>.container{padding-top:48px;padding-bottom:48px}
+@media(min-width:1024px){.headline-cta-component>.container{padding-top:96px;padding-bottom:96px}
+}
+.headline-cta-component .headline-cta-btns>.row{padding-right:8px;padding-left:8px}
+@media(min-width:1024px){.headline-cta-component .headline-cta-btns>.row{padding-right:0;padding-left:0}
+}
+.headline-cta-component .headline-cta-btns .button-repsol:empty{display:none}
+.headline-cta-component .headline-cta-btns .component-title .rp-title p,.headline-cta-component .headline-cta-btns .component-description .rp-description p{text-align:left}
+@media(min-width:1024px){.headline-cta-component .headline-cta-btns .component-title .rp-title p,.headline-cta-component .headline-cta-btns .component-description .rp-description p{text-align:center}
+}
+@media(min-width:1024px){.headline-cta-component .headline-cta-btns .double-cta{display:flex;align-items:center;justify-content:center}
+}
+.headline-cta-component .headline-cta-btns .button-repsol .rp-btn{max-width:100%;width:100%;padding:8px 16px}
+@media(min-width:1024px){.headline-cta-component .headline-cta-btns .button-repsol .rp-btn{min-width:296px}
+}
+.headline-cta-component .headline-cta-btns .button-repsol:last-child{margin:12px 0 0 0}
+@media(min-width:1024px){.headline-cta-component .headline-cta-btns .button-repsol:last-child{margin:0 0 0 16px}
+}

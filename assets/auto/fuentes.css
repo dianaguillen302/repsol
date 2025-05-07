@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'titilliumregular';
+    src: url('/content/dam/aplicaciones/fonts/titillium-regular-webfont.woff2') format('woff2'),
+         url('/content/dam/aplicaciones/fonts/titillium-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'repsolregular';
+    src: url('/content/dam/aplicaciones/fonts/repsol-regular-webfont-webfont.woff2') format('woff2'),
+         url('/content/dam/aplicaciones/fonts/repsol-regular-webfont-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'repsolbold';
+    src: url('/content/dam/aplicaciones/fonts/repsol-bold-webfont.eot');
+    src: url('/content/dam/aplicaciones/fonts/repsol-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/content/dam/aplicaciones/fonts/repsol-bold-webfont.woff2') format('woff2'),
+         url('/content/dam/aplicaciones/fonts/repsol-bold-webfont.woff') format('woff'),
+         url('/content/dam/aplicaciones/fonts/repsol-bold-webfont.ttf') format('truetype'),
+         url('/content/dam/aplicaciones/fonts/repsol-bold-webfont.svg#repsollight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'titillium_bdbold';
+    src: url('/content/dam/aplicaciones/fonts/titillium-bold-webfont.woff2') format('woff2'),
+         url('/content/dam/aplicaciones/fonts/titillium-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'titillium_bdbold_italic';
+    src: url('/content/dam/aplicaciones/fonts/titillium-bolditalic-webfont.woff2') format('woff2'),
+         url('/content/dam/aplicaciones/fonts/titillium-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'titilliumlight';
+    src: url('/content/dam/aplicaciones/fonts/titillium-light-webfont.woff2') format('woff2'),
+         url('/content/dam/aplicaciones/fonts/titillium-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'titilliumlight_italic';
+    src: url('/content/dam/aplicaciones/fonts/titillium-lightitalic-webfont.woff2') format('woff2'),
+         url('/content/dam/aplicaciones/fonts/titillium-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'titilliumregular';
+    src: url('/content/dam/aplicaciones/fonts/titillium-regular-webfont.woff2') format('woff2'),
+         url('/content/dam/aplicaciones/fonts/titillium-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'titilliumitalic';
+    src: url('/content/dam/aplicaciones/fonts/titillium-regularitalic-webfont.woff2') format('woff2'),
+         url('/content/dam/aplicaciones/fonts/titillium-regularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'repsollight';
+    src: url('/content/dam/aplicaciones/fonts/repsol-light-webfont.eot');
+    src: url('/content/dam/aplicaciones/fonts/repsol-light-webfont-.eot#iefix') format('embedded-opentype'),
+         url('/content/dam/aplicaciones/fonts/repsol-light-webfont.woff2') format('woff2'),
+         url('/content/dam/aplicaciones/fonts/repsol-light-webfont.woff') format('woff'),
+         url('/content/dam/aplicaciones/fonts/repsol-light-webfont.ttf') format('truetype'),
+         url('/content/dam/aplicaciones/fonts/repsol-light-webfont.svg#repsollight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Repsol-BoldItalic';
+    src: url('/content/dam/aplicaciones/fonts/Repsol-BoldItalic.eot');
+    src: local('Repsol-BoldItalic'),
+        url('/content/dam/aplicaciones/fonts/Repsol-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/content/dam/aplicaciones/fonts/Repsol-BoldItalic.woff2') format('woff2'),
+        url('/content/dam/aplicaciones/fonts/Repsol-BoldItalic.woff') format('woff'),
+        url('/content/dam/aplicaciones/fonts/Repsol-BoldItalic.ttf') format('truetype'),
+        url('/content/dam/aplicaciones/fonts/Repsol-BoldItalic.svg#Repsol-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Repsol-Italic';
+    src: url('/content/dam/aplicaciones/fonts/Repsol-Italic.eot');
+    src: local('Repsol-Italic'),
+        url('/content/dam/aplicaciones/fonts/Repsol-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/content/dam/aplicaciones/fonts/Repsol-Italic.woff2') format('woff2'),
+        url('/content/dam/aplicaciones/fonts/Repsol-Italic.woff') format('woff'),
+        url('/content/dam/aplicaciones/fonts/Repsol-Italic.ttf') format('truetype'),
+        url('/content/dam/aplicaciones/fonts/Repsol-Italic.svg#Repsol-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Repsol-SemiBold';
+    src: url('/content/dam/aplicaciones/fonts/Repsol-SemiBold.eot');
+    src: local('Repsol-SemiBold'),
+        url('/content/dam/aplicaciones/fonts/Repsol-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/content/dam/aplicaciones/fonts/Repsol-SemiBold.woff2') format('woff2'),
+        url('/content/dam/aplicaciones/fonts/Repsol-SemiBold.woff') format('woff'),
+        url('/content/dam/aplicaciones/fonts/Repsol-SemiBold.ttf') format('truetype'),
+        url('/content/dam/aplicaciones/fonts/Repsol-SemiBold.svg#Repsol-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Repsol-SemiBoldItalic';
+    src: url('/content/dam/aplicaciones/fonts/Repsol-SemiBoldItalic.eot');
+    src: local('Repsol-SemiBoldItalic'),
+        url('/content/dam/aplicaciones/fonts/Repsol-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/content/dam/aplicaciones/fonts/Repsol-SemiBoldItalic.woff2') format('woff2'),
+        url('/content/dam/aplicaciones/fonts/Repsol-SemiBoldItalic.woff') format('woff'),
+        url('/content/dam/aplicaciones/fonts/Repsol-SemiBoldItalic.ttf') format('truetype'),
+        url('/content/dam/aplicaciones/fonts/Repsol-SemiBoldItalic.svg#Repsol-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Repsol-LightItalic';
+    src: url('/content/dam/aplicaciones/fonts/Repsol-LightItalic.eot');
+    src: local('Repsol-LightItalic'),
+        url('/content/dam/aplicaciones/fonts/Repsol-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('/content/dam/aplicaciones/fonts/Repsol-LightItalic.woff2') format('woff2'),
+        url('/content/dam/aplicaciones/fonts/Repsol-LightItalic.woff') format('woff'),
+        url('/content/dam/aplicaciones/fonts/Repsol-LightItalic.ttf') format('truetype'),
+        url('/content/dam/aplicaciones/fonts/Repsol-LightItalic.svg#Repsol-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Repsol-Bold';
+    src: url('/content/dam/aplicaciones/fonts/Repsol-Bold.eot');
+    src: local('Repsol-Bold'),
+        url('/content/dam/aplicaciones/fonts/Repsol-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/content/dam/aplicaciones/fonts/Repsol-Bold.woff2') format('woff2'),
+        url('/content/dam/aplicaciones/fonts/Repsol-Bold.woff') format('woff'),
+        url('/content/dam/aplicaciones/fonts/Repsol-Bold.ttf') format('truetype'),
+        url('/content/dam/aplicaciones/fonts/Repsol-Bold.svg#Repsol-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Repsol';
+    src: url('/content/dam/aplicaciones/fonts/Repsol.eot');
+    src: local('Repsol'),
+        url('/content/dam/aplicaciones/fonts/Repsol.eot?#iefix') format('embedded-opentype'),
+        url('/content/dam/aplicaciones/fonts/Repsol.woff2') format('woff2'),
+        url('/content/dam/aplicaciones/fonts/Repsol.woff') format('woff'),
+        url('/content/dam/aplicaciones/fonts/Repsol.ttf') format('truetype'),
+        url('/content/dam/aplicaciones/fonts/Repsol.svg#Repsol') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Repsol-Light';
+    src: url('/content/dam/aplicaciones/fonts/Repsol-Light.eot');
+    src: local('Repsol-Light'),
+        url('/content/dam/aplicaciones/fonts/Repsol-Light.eot?#iefix') format('embedded-opentype'),
+        url('/content/dam/aplicaciones/fonts/Repsol-Light.woff2') format('woff2'),
+        url('/content/dam/aplicaciones/fonts/Repsol-Light.woff') format('woff'),
+        url('/content/dam/aplicaciones/fonts/Repsol-Light.ttf') format('truetype'),
+        url('/content/dam/aplicaciones/fonts/Repsol-Light.svg#Repsol-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Veneer Clean Reg';
+    src: url('/content/dam/aplicaciones/fonts/VeneerClean-Reg.woff2') format('woff2'),
+        url('/content/dam/aplicaciones/fonts/VeneerClean-Reg.woff') format('woff');
+    font-weight: 300;
+    
+    font-style: normal;
+}

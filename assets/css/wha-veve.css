@@ -1,0 +1,71 @@
+.floating-custom {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 80px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    transition: 1s;
+  }
+  
+  .floating-custom:hover {
+    background-color: #25b65a;
+    color: #d3d3d3;
+  }
+  
+  .floating-custom.active {
+    background-color: #525252;
+    color: #fff;
+  }
+  
+  .floating-menu {
+    position: fixed;
+    bottom: 50px;
+    right: 25px;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    z-index: 99;
+    opacity: 0;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    pointer-events: none;
+  }
+  
+  .floating-menu a {
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #25d366;
+    text-align: center;
+    width: 100%;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+  }
+  .floating-menu a:nth-child(1) {
+    translate: -100px;
+  }
+  .floating-menu a:nth-child(2) {
+    translate: -100px;
+  }
+  .floating-menu a:nth-child(3) {
+    translate: -100px;
+  }
+  
+  .floating-menu.active {
+    opacity: 1;
+    pointer-events: visible;
+    bottom: 70px;
+    pointer-events: auto;
+  }
